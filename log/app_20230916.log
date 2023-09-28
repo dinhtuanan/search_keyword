@@ -1,0 +1,86 @@
+2023-09-16 19:15:09,924,INFO,ProcID:6784,run.py,<module>,85, Start Logging.
+2023-09-16 19:15:24,527,INFO,ProcID:10524,run.py,<module>,85, Start Logging.
+2023-09-16 19:15:26,021,INFO,ProcID:19004,run.py,<module>,85, Start Logging.
+2023-09-16 19:15:29,789,INFO,ProcID:19004,run.py,signin,110, Start function.
+2023-09-16 19:15:29,871,INFO,ProcID:19004,run.py,signin,115, Finish function.
+2023-09-16 19:15:31,778,INFO,ProcID:19004,run.py,login,128, Start function.
+2023-09-16 19:15:35,843,DEBUG,ProcID:19004,controller.py,create_economic_record,133, Date
+2023-08-16    81.230003
+2023-08-17    79.250000
+2023-08-18    80.040001
+2023-08-21    81.430000
+2023-08-22    80.800003
+2023-08-23    79.639999
+2023-08-24    78.570000
+2023-08-25    78.879997
+2023-08-28    80.150002
+2023-08-29    79.980003
+2023-08-30    81.290001
+2023-08-31    81.699997
+2023-09-01    83.629997
+2023-09-05    86.059998
+2023-09-06    86.720001
+2023-09-07    87.540001
+2023-09-08    86.779999
+2023-09-11    87.400002
+2023-09-12    87.269997
+2023-09-13    88.750000
+2023-09-14    88.809998
+2023-09-15    90.669998
+Name: Open, dtype: float64
+2023-09-16 19:15:35,870,INFO,ProcID:19004,run.py,login,153, Finish function.
+2023-09-16 19:15:35,877,INFO,ProcID:19004,suggestion_info.py,suggests,35, Start function.
+2023-09-16 19:15:36,026,INFO,ProcID:19004,suggestion_info.py,suggests,69, Finish function.
+2023-09-16 19:15:38,722,INFO,ProcID:19004,models_info.py,get_models_info,26, Start function get all models information
+2023-09-16 19:15:38,722,INFO,ProcID:19004,controller.py,get_models_information,30, get all models function starting
+2023-09-16 19:15:38,726,INFO,ProcID:19004,controller.py,get_models_information,43, get all models function end
+2023-09-16 19:15:38,775,INFO,ProcID:19004,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-16 19:15:43,091,INFO,ProcID:19004,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-16 19:15:43,091,INFO,ProcID:19004,controller.py,evaluate_model,106, evaluate model function starting
+2023-09-16 19:15:43,096,INFO,ProcID:19004,controller.py,evaluate_model,170, evaluate model function end
+2023-09-16 19:15:43,096,INFO,ProcID:19004,models_info.py,evaluate_models,71, end evaluate.
+2023-09-16 19:15:57,870,INFO,ProcID:19004,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-16 19:15:57,870,INFO,ProcID:19004,controller.py,evaluate_model,106, evaluate model function starting
+2023-09-16 19:15:57,873,INFO,ProcID:19004,controller.py,predict,56, predict starting
+2023-09-16 19:15:57,873,ERROR,ProcID:19004,models_info.py,evaluate_models,65, [Errno 2] No such file or directory: 'D:\\Work\\HACHIX\\alumi\\Tokai_Alumi\\src\\BuyerTrain\\sc.pkl'
+Traceback (most recent call last):
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\pages\models_info.py", line 56, in evaluate_models
+    evaluate_result = models_ctrl.evaluate_model(model_ids, start_date, end_date)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\apis\models\controller.py", line 158, in evaluate_model
+    "predict_value": predict(model_record_info, ai_x_variables)[0]
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\apis\models\controller.py", line 60, in predict
+    sc = pickle.load(open(sc_file, "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\Work\\HACHIX\\alumi\\Tokai_Alumi\\src\\BuyerTrain\\sc.pkl'
+2023-09-16 19:15:57,881,INFO,ProcID:19004,models_info.py,evaluate_models,71, end evaluate.
+2023-09-16 19:16:13,626,INFO,ProcID:19004,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-16 19:16:13,626,INFO,ProcID:19004,controller.py,evaluate_model,106, evaluate model function starting
+2023-09-16 19:16:13,628,INFO,ProcID:19004,controller.py,predict,56, predict starting
+2023-09-16 19:16:13,628,ERROR,ProcID:19004,models_info.py,evaluate_models,65, [Errno 2] No such file or directory: 'D:\\Work\\HACHIX\\alumi\\Tokai_Alumi\\src\\BuyerTrain\\sc.pkl'
+Traceback (most recent call last):
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\pages\models_info.py", line 56, in evaluate_models
+    evaluate_result = models_ctrl.evaluate_model(model_ids, start_date, end_date)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\apis\models\controller.py", line 158, in evaluate_model
+    "predict_value": predict(model_record_info, ai_x_variables)[0]
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\apis\models\controller.py", line 60, in predict
+    sc = pickle.load(open(sc_file, "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\Work\\HACHIX\\alumi\\Tokai_Alumi\\src\\BuyerTrain\\sc.pkl'
+2023-09-16 19:16:13,629,INFO,ProcID:19004,models_info.py,evaluate_models,71, end evaluate.
+2023-09-16 19:16:42,596,INFO,ProcID:6264,run.py,<module>,85, Start Logging.
+2023-09-16 19:16:44,122,INFO,ProcID:21612,run.py,<module>,85, Start Logging.
+2023-09-16 19:16:45,513,INFO,ProcID:21612,models_info.py,get_models_info,26, Start function get all models information
+2023-09-16 19:16:45,513,INFO,ProcID:21612,controller.py,get_models_information,30, get all models function starting
+2023-09-16 19:16:45,556,INFO,ProcID:21612,controller.py,get_models_information,43, get all models function end
+2023-09-16 19:16:45,604,INFO,ProcID:21612,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-16 19:16:48,143,INFO,ProcID:21612,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-16 19:16:48,143,INFO,ProcID:21612,controller.py,evaluate_model,106, evaluate model function starting
+2023-09-16 19:16:48,153,INFO,ProcID:21612,controller.py,predict,56, predict starting
+2023-09-16 19:16:48,153,ERROR,ProcID:21612,models_info.py,evaluate_models,65, [Errno 2] No such file or directory: 'D:\\Work\\HACHIX\\alumi\\Tokai_Alumi\\src\\BuyerTrain\\sc.pkl'
+Traceback (most recent call last):
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\pages\models_info.py", line 56, in evaluate_models
+    evaluate_result = models_ctrl.evaluate_model(model_ids, start_date, end_date)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\apis\models\controller.py", line 158, in evaluate_model
+    "predict_value": predict(model_record_info, ai_x_variables)[0]
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\apis\models\controller.py", line 60, in predict
+    sc = pickle.load(open(sc_file, "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\Work\\HACHIX\\alumi\\Tokai_Alumi\\src\\BuyerTrain\\sc.pkl'
+2023-09-16 19:16:48,154,INFO,ProcID:21612,models_info.py,evaluate_models,71, end evaluate.

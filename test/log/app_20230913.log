@@ -1,0 +1,82 @@
+2023-09-13 13:32:39,618,INFO,ProcID:15968,run.py,<module>,85, Start Logging.
+2023-09-13 13:32:41,141,INFO,ProcID:22836,run.py,<module>,85, Start Logging.
+2023-09-13 13:33:41,243,INFO,ProcID:22836,run.py,signin,96, Start function.
+2023-09-13 13:33:41,317,INFO,ProcID:22836,run.py,signin,101, Finish function.
+2023-09-13 13:33:43,858,INFO,ProcID:22836,run.py,login,114, Start function.
+2023-09-13 13:33:47,273,DEBUG,ProcID:22836,controller.py,create_economic_record,133, Date
+2023-08-14    83.089996
+2023-08-15    82.519997
+2023-08-16    81.230003
+2023-08-17    79.250000
+2023-08-18    80.040001
+2023-08-21    81.430000
+2023-08-22    80.800003
+2023-08-23    79.639999
+2023-08-24    78.570000
+2023-08-25    78.879997
+2023-08-28    80.150002
+2023-08-29    79.980003
+2023-08-30    81.290001
+2023-08-31    81.699997
+2023-09-01    83.629997
+2023-09-05    86.059998
+2023-09-06    86.720001
+2023-09-07    87.540001
+2023-09-08    86.779999
+2023-09-11    87.400002
+2023-09-12    87.269997
+2023-09-13    88.750000
+Name: Open, dtype: float64
+2023-09-13 13:33:47,298,INFO,ProcID:22836,run.py,login,139, Finish function.
+2023-09-13 13:33:47,304,INFO,ProcID:22836,suggestion_info.py,suggests,35, Start function.
+2023-09-13 13:33:47,409,INFO,ProcID:22836,suggestion_info.py,suggests,69, Finish function.
+2023-09-13 13:33:58,716,INFO,ProcID:22836,models_info.py,get_models_info,25, Start function get all models information
+2023-09-13 13:33:58,716,INFO,ProcID:22836,controller.py,get_models_information,24, get all models function starting
+2023-09-13 13:33:58,721,INFO,ProcID:22836,controller.py,get_models_information,37, get all models function end
+2023-09-13 13:33:58,765,INFO,ProcID:22836,models_info.py,get_models_info,31, Finish function get all models information
+2023-09-13 13:33:58,876,INFO,ProcID:22836,models_info.py,get_models_info,25, Start function get all models information
+2023-09-13 13:33:58,876,INFO,ProcID:22836,controller.py,get_models_information,24, get all models function starting
+2023-09-13 13:33:58,877,INFO,ProcID:22836,controller.py,get_models_information,37, get all models function end
+2023-09-13 13:33:58,885,INFO,ProcID:22836,models_info.py,get_models_info,31, Finish function get all models information
+2023-09-13 13:34:01,310,INFO,ProcID:22836,models_info.py,evaluate_models,43, Start evaluate.
+2023-09-13 13:34:01,310,INFO,ProcID:22836,controller.py,evaluate_model,47, evaluate model function starting
+2023-09-13 13:34:01,316,INFO,ProcID:22836,controller.py,evaluate_model,110, evaluate model function end
+2023-09-13 13:34:01,316,INFO,ProcID:22836,models_info.py,evaluate_models,68, end evaluate.
+2023-09-13 13:34:04,292,INFO,ProcID:22836,models_info.py,evaluate_models,43, Start evaluate.
+2023-09-13 13:34:04,292,INFO,ProcID:22836,controller.py,evaluate_model,47, evaluate model function starting
+2023-09-13 13:34:04,295,INFO,ProcID:22836,controller.py,evaluate_model,110, evaluate model function end
+2023-09-13 13:34:04,295,INFO,ProcID:22836,models_info.py,evaluate_models,68, end evaluate.
+2023-09-13 13:34:07,558,INFO,ProcID:22836,models_info.py,evaluate_models,43, Start evaluate.
+2023-09-13 13:34:07,558,INFO,ProcID:22836,controller.py,evaluate_model,47, evaluate model function starting
+2023-09-13 13:34:07,561,INFO,ProcID:22836,controller.py,evaluate_model,110, evaluate model function end
+2023-09-13 13:34:07,561,INFO,ProcID:22836,models_info.py,evaluate_models,68, end evaluate.
+2023-09-13 13:34:08,246,INFO,ProcID:22836,models_info.py,evaluate_models,43, Start evaluate.
+2023-09-13 13:34:08,247,INFO,ProcID:22836,controller.py,evaluate_model,47, evaluate model function starting
+2023-09-13 13:34:08,249,INFO,ProcID:22836,controller.py,evaluate_model,110, evaluate model function end
+2023-09-13 13:34:08,250,INFO,ProcID:22836,models_info.py,evaluate_models,68, end evaluate.
+2023-09-13 13:34:08,990,INFO,ProcID:22836,models_info.py,evaluate_models,43, Start evaluate.
+2023-09-13 13:34:08,990,INFO,ProcID:22836,controller.py,evaluate_model,47, evaluate model function starting
+2023-09-13 13:34:08,993,INFO,ProcID:22836,controller.py,evaluate_model,110, evaluate model function end
+2023-09-13 13:34:08,993,INFO,ProcID:22836,models_info.py,evaluate_models,68, end evaluate.
+2023-09-13 13:34:14,519,INFO,ProcID:22836,models_info.py,evaluate_models,43, Start evaluate.
+2023-09-13 13:34:14,519,INFO,ProcID:22836,controller.py,evaluate_model,47, evaluate model function starting
+2023-09-13 13:34:14,522,INFO,ProcID:22836,controller.py,evaluate_model,110, evaluate model function end
+2023-09-13 13:34:14,522,INFO,ProcID:22836,models_info.py,evaluate_models,68, end evaluate.
+2023-09-13 13:34:17,280,INFO,ProcID:22836,models_info.py,evaluate_models,43, Start evaluate.
+2023-09-13 13:34:17,280,INFO,ProcID:22836,controller.py,evaluate_model,47, evaluate model function starting
+2023-09-13 13:34:17,284,INFO,ProcID:22836,controller.py,evaluate_model,110, evaluate model function end
+2023-09-13 13:34:17,284,INFO,ProcID:22836,models_info.py,evaluate_models,68, end evaluate.
+2023-09-13 13:35:23,249,INFO,ProcID:22836,training.py,train,33, train start
+2023-09-13 13:35:23,278,INFO,ProcID:22836,training.py,train,37, train end
+2023-09-13 13:35:26,742,INFO,ProcID:22836,suggestion_info.py,suggests,35, Start function.
+2023-09-13 13:35:26,756,INFO,ProcID:22836,suggestion_info.py,suggests,69, Finish function.
+2023-09-13 13:35:27,642,INFO,ProcID:22836,training.py,train,33, train start
+2023-09-13 13:35:27,648,INFO,ProcID:22836,training.py,train,37, train end
+2023-09-13 13:35:28,225,INFO,ProcID:22836,models_info.py,get_models_info,25, Start function get all models information
+2023-09-13 13:35:28,225,INFO,ProcID:22836,controller.py,get_models_information,24, get all models function starting
+2023-09-13 13:35:28,226,INFO,ProcID:22836,controller.py,get_models_information,37, get all models function end
+2023-09-13 13:35:28,232,INFO,ProcID:22836,models_info.py,get_models_info,31, Finish function get all models information
+2023-09-13 13:35:28,322,INFO,ProcID:22836,models_info.py,get_models_info,25, Start function get all models information
+2023-09-13 13:35:28,322,INFO,ProcID:22836,controller.py,get_models_information,24, get all models function starting
+2023-09-13 13:35:28,323,INFO,ProcID:22836,controller.py,get_models_information,37, get all models function end
+2023-09-13 13:35:28,330,INFO,ProcID:22836,models_info.py,get_models_info,31, Finish function get all models information

@@ -1,0 +1,1629 @@
+2023-09-14 11:48:06,750,INFO,ProcID:15992,run.py,<module>,85, Start Logging.
+2023-09-14 11:48:08,342,INFO,ProcID:13048,run.py,<module>,85, Start Logging.
+2023-09-14 11:48:13,225,INFO,ProcID:13048,run.py,signin,96, Start function.
+2023-09-14 11:48:13,287,INFO,ProcID:13048,run.py,signin,101, Finish function.
+2023-09-14 11:48:14,970,INFO,ProcID:13048,run.py,login,114, Start function.
+2023-09-14 11:48:18,399,DEBUG,ProcID:13048,controller.py,create_economic_record,133, Date
+2023-08-14    83.089996
+2023-08-15    82.519997
+2023-08-16    81.230003
+2023-08-17    79.250000
+2023-08-18    80.040001
+2023-08-21    81.430000
+2023-08-22    80.800003
+2023-08-23    79.639999
+2023-08-24    78.570000
+2023-08-25    78.879997
+2023-08-28    80.150002
+2023-08-29    79.980003
+2023-08-30    81.290001
+2023-08-31    81.699997
+2023-09-01    83.629997
+2023-09-05    86.059998
+2023-09-06    86.720001
+2023-09-07    87.540001
+2023-09-08    86.779999
+2023-09-11    87.400002
+2023-09-12    87.269997
+2023-09-13    88.750000
+2023-09-14    88.809998
+Name: Open, dtype: float64
+2023-09-14 11:48:18,421,INFO,ProcID:13048,run.py,login,139, Finish function.
+2023-09-14 11:48:18,428,INFO,ProcID:13048,suggestion_info.py,suggests,35, Start function.
+2023-09-14 11:48:18,526,INFO,ProcID:13048,suggestion_info.py,suggests,69, Finish function.
+2023-09-14 11:48:22,112,INFO,ProcID:13048,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 11:48:22,112,INFO,ProcID:13048,controller.py,get_models_information,30, get all models function starting
+2023-09-14 11:48:22,115,INFO,ProcID:13048,controller.py,get_models_information,43, get all models function end
+2023-09-14 11:48:22,158,INFO,ProcID:13048,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 11:48:22,269,INFO,ProcID:13048,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 11:48:22,270,INFO,ProcID:13048,controller.py,get_models_information,30, get all models function starting
+2023-09-14 11:48:22,271,INFO,ProcID:13048,controller.py,get_models_information,43, get all models function end
+2023-09-14 11:48:22,284,INFO,ProcID:13048,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 11:48:28,688,INFO,ProcID:13048,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 11:48:28,688,INFO,ProcID:13048,controller.py,evaluate_model,104, evaluate model function starting
+2023-09-14 11:48:28,693,ERROR,ProcID:13048,models_info.py,evaluate_models,65, 'Models' object has no attribute 'economic'
+Traceback (most recent call last):
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\pages\models_info.py", line 56, in evaluate_models
+    evaluate_result = models_ctrl.evaluate_model(model_ids, start_date, end_date)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\apis\models\controller.py", line 122, in evaluate_model
+    economic = model.economic
+AttributeError: 'Models' object has no attribute 'economic'
+2023-09-14 11:48:28,694,INFO,ProcID:13048,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 11:49:03,696,INFO,ProcID:24312,run.py,<module>,85, Start Logging.
+2023-09-14 11:50:16,225,INFO,ProcID:23396,run.py,<module>,85, Start Logging.
+2023-09-14 11:50:19,314,INFO,ProcID:24648,run.py,<module>,85, Start Logging.
+2023-09-14 11:50:24,513,INFO,ProcID:14292,run.py,<module>,85, Start Logging.
+2023-09-14 11:50:28,733,INFO,ProcID:20180,run.py,<module>,85, Start Logging.
+2023-09-14 11:50:31,709,INFO,ProcID:6336,run.py,<module>,85, Start Logging.
+2023-09-14 11:50:34,840,INFO,ProcID:19184,run.py,<module>,85, Start Logging.
+2023-09-14 11:50:36,904,INFO,ProcID:21384,run.py,<module>,85, Start Logging.
+2023-09-14 11:50:39,880,INFO,ProcID:5088,run.py,<module>,85, Start Logging.
+2023-09-14 11:51:03,623,INFO,ProcID:13320,run.py,<module>,85, Start Logging.
+2023-09-14 11:51:37,130,INFO,ProcID:22960,run.py,<module>,85, Start Logging.
+2023-09-14 11:51:38,740,INFO,ProcID:9700,run.py,<module>,85, Start Logging.
+2023-09-14 11:51:39,519,INFO,ProcID:9700,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 11:51:39,519,INFO,ProcID:9700,controller.py,get_models_information,30, get all models function starting
+2023-09-14 11:51:39,693,INFO,ProcID:9700,controller.py,get_models_information,43, get all models function end
+2023-09-14 11:51:39,731,INFO,ProcID:9700,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 11:51:40,050,INFO,ProcID:9700,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 11:51:40,050,INFO,ProcID:9700,controller.py,get_models_information,30, get all models function starting
+2023-09-14 11:51:40,051,INFO,ProcID:9700,controller.py,get_models_information,43, get all models function end
+2023-09-14 11:51:40,064,INFO,ProcID:9700,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 11:51:43,771,INFO,ProcID:9700,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 11:51:43,771,INFO,ProcID:9700,controller.py,evaluate_model,104, evaluate model function starting
+2023-09-14 11:51:44,277,INFO,ProcID:9700,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 11:52:31,412,INFO,ProcID:4248,run.py,<module>,85, Start Logging.
+2023-09-14 11:52:33,334,INFO,ProcID:2600,run.py,<module>,85, Start Logging.
+2023-09-14 11:52:34,044,INFO,ProcID:2600,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 11:52:34,044,INFO,ProcID:2600,controller.py,get_models_information,30, get all models function starting
+2023-09-14 11:52:34,099,INFO,ProcID:2600,controller.py,get_models_information,43, get all models function end
+2023-09-14 11:52:34,139,INFO,ProcID:2600,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 11:52:34,366,INFO,ProcID:2600,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 11:52:34,366,INFO,ProcID:2600,controller.py,get_models_information,30, get all models function starting
+2023-09-14 11:52:34,367,INFO,ProcID:2600,controller.py,get_models_information,43, get all models function end
+2023-09-14 11:52:34,380,INFO,ProcID:2600,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 11:52:37,256,INFO,ProcID:2600,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 11:52:37,256,INFO,ProcID:2600,controller.py,evaluate_model,104, evaluate model function starting
+2023-09-14 11:52:37,855,INFO,ProcID:2600,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 11:53:05,760,INFO,ProcID:19244,run.py,<module>,85, Start Logging.
+2023-09-14 11:53:22,608,INFO,ProcID:1480,run.py,<module>,85, Start Logging.
+2023-09-14 11:53:24,308,INFO,ProcID:18448,run.py,<module>,85, Start Logging.
+2023-09-14 11:54:08,927,INFO,ProcID:18448,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 11:54:08,927,INFO,ProcID:18448,controller.py,get_models_information,30, get all models function starting
+2023-09-14 11:54:08,983,INFO,ProcID:18448,controller.py,get_models_information,43, get all models function end
+2023-09-14 11:54:09,023,INFO,ProcID:18448,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 11:54:09,246,INFO,ProcID:18448,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 11:54:09,246,INFO,ProcID:18448,controller.py,get_models_information,30, get all models function starting
+2023-09-14 11:54:09,247,INFO,ProcID:18448,controller.py,get_models_information,43, get all models function end
+2023-09-14 11:54:09,260,INFO,ProcID:18448,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 11:54:11,333,INFO,ProcID:18448,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 11:54:11,334,INFO,ProcID:18448,controller.py,evaluate_model,104, evaluate model function starting
+2023-09-14 11:54:11,347,INFO,ProcID:18448,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 11:56:08,133,INFO,ProcID:7304,run.py,<module>,85, Start Logging.
+2023-09-14 11:56:11,019,INFO,ProcID:18520,run.py,<module>,85, Start Logging.
+2023-09-14 11:56:15,187,INFO,ProcID:15772,run.py,<module>,85, Start Logging.
+2023-09-14 11:56:20,504,INFO,ProcID:13668,run.py,<module>,85, Start Logging.
+2023-09-14 11:56:25,755,INFO,ProcID:5124,run.py,<module>,85, Start Logging.
+2023-09-14 11:56:31,065,INFO,ProcID:18756,run.py,<module>,85, Start Logging.
+2023-09-14 11:57:35,032,INFO,ProcID:4248,run.py,<module>,85, Start Logging.
+2023-09-14 11:57:40,446,INFO,ProcID:13192,run.py,<module>,85, Start Logging.
+2023-09-14 11:57:43,380,INFO,ProcID:12780,run.py,<module>,85, Start Logging.
+2023-09-14 11:58:18,937,INFO,ProcID:6280,run.py,<module>,85, Start Logging.
+2023-09-14 11:58:25,116,INFO,ProcID:23320,run.py,<module>,85, Start Logging.
+2023-09-14 11:58:29,208,INFO,ProcID:13044,run.py,<module>,85, Start Logging.
+2023-09-14 12:04:21,326,INFO,ProcID:22776,run.py,<module>,85, Start Logging.
+2023-09-14 12:04:22,904,INFO,ProcID:18764,run.py,<module>,85, Start Logging.
+2023-09-14 12:04:30,253,INFO,ProcID:348,run.py,<module>,85, Start Logging.
+2023-09-14 12:04:35,596,INFO,ProcID:348,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 12:04:35,596,INFO,ProcID:348,controller.py,get_models_information,30, get all models function starting
+2023-09-14 12:04:35,650,INFO,ProcID:348,controller.py,get_models_information,43, get all models function end
+2023-09-14 12:04:35,689,INFO,ProcID:348,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 12:04:36,015,INFO,ProcID:348,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 12:04:36,015,INFO,ProcID:348,controller.py,get_models_information,30, get all models function starting
+2023-09-14 12:04:36,016,INFO,ProcID:348,controller.py,get_models_information,43, get all models function end
+2023-09-14 12:04:36,029,INFO,ProcID:348,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 12:04:37,137,INFO,ProcID:348,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 12:04:37,137,INFO,ProcID:348,controller.py,evaluate_model,104, evaluate model function starting
+2023-09-14 12:04:37,143,INFO,ProcID:348,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 12:04:42,189,INFO,ProcID:348,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 12:04:42,189,INFO,ProcID:348,controller.py,evaluate_model,104, evaluate model function starting
+2023-09-14 12:04:42,192,ERROR,ProcID:348,models_info.py,evaluate_models,65, Don't know how to join to <Mapper at 0x2cd44947e50; Suggest>. Please use the .select_from() method to establish an explicit left side, as well as providing an explicit ON clause if not present already to help resolve the ambiguity.
+Traceback (most recent call last):
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\pages\models_info.py", line 56, in evaluate_models
+    evaluate_result = models_ctrl.evaluate_model(model_ids, start_date, end_date)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\apis\models\controller.py", line 160, in evaluate_model
+    result = db.session.query(Bid, Suggest).join(Suggest).one()
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sqlalchemy\orm\query.py", line 2869, in one
+    return self._iter().one()
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sqlalchemy\orm\query.py", line 2907, in _iter
+    result = self.session.execute(
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sqlalchemy\orm\session.py", line 1712, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sqlalchemy\engine\base.py", line 1705, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sqlalchemy\sql\elements.py", line 333, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sqlalchemy\engine\base.py", line 1564, in _execute_clauseelement
+    compiled_sql, extracted_params, cache_hit = elem._compile_w_cache(
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sqlalchemy\sql\elements.py", line 531, in _compile_w_cache
+    compiled_sql = self._compiler(
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sqlalchemy\sql\elements.py", line 566, in _compiler
+    return dialect.statement_compiler(dialect, self, **kw)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sqlalchemy\sql\compiler.py", line 790, in __init__
+    Compiled.__init__(self, dialect, statement, **kwargs)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sqlalchemy\sql\compiler.py", line 463, in __init__
+    self.string = self.process(self.statement, **compile_kwargs)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sqlalchemy\sql\compiler.py", line 498, in process
+    return obj._compiler_dispatch(self, **kwargs)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sqlalchemy\sql\visitors.py", line 82, in _compiler_dispatch
+    return meth(self, **kw)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sqlalchemy\sql\compiler.py", line 3301, in visit_select
+    compile_state = select_stmt._compile_state_factory(
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sqlalchemy\sql\base.py", line 510, in create_for_statement
+    return klass.create_for_statement(statement, compiler, **kw)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sqlalchemy\orm\context.py", line 763, in create_for_statement
+    self._setup_for_generate()
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sqlalchemy\orm\context.py", line 794, in _setup_for_generate
+    self._legacy_join(query._legacy_setup_joins, self._entities)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sqlalchemy\orm\context.py", line 1668, in _legacy_join
+    self._join_left_to_right(
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sqlalchemy\orm\context.py", line 1710, in _join_left_to_right
+    ) = self._join_determine_implicit_left_side(
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sqlalchemy\orm\context.py", line 1874, in _join_determine_implicit_left_side
+    raise sa_exc.InvalidRequestError(
+sqlalchemy.exc.InvalidRequestError: Don't know how to join to <Mapper at 0x2cd44947e50; Suggest>. Please use the .select_from() method to establish an explicit left side, as well as providing an explicit ON clause if not present already to help resolve the ambiguity.
+2023-09-14 12:04:42,290,INFO,ProcID:348,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 12:05:25,528,INFO,ProcID:21396,run.py,<module>,85, Start Logging.
+2023-09-14 12:05:27,119,INFO,ProcID:21396,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 12:05:27,119,INFO,ProcID:21396,controller.py,get_models_information,30, get all models function starting
+2023-09-14 12:05:27,177,INFO,ProcID:21396,controller.py,get_models_information,43, get all models function end
+2023-09-14 12:05:27,214,INFO,ProcID:21396,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 12:05:27,456,INFO,ProcID:21396,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 12:05:27,456,INFO,ProcID:21396,controller.py,get_models_information,30, get all models function starting
+2023-09-14 12:05:27,458,INFO,ProcID:21396,controller.py,get_models_information,43, get all models function end
+2023-09-14 12:05:27,470,INFO,ProcID:21396,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 12:05:29,478,INFO,ProcID:21396,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 12:05:29,478,INFO,ProcID:21396,controller.py,evaluate_model,104, evaluate model function starting
+2023-09-14 12:05:29,485,ERROR,ProcID:21396,models_info.py,evaluate_models,65, Don't know how to join to <Mapper at 0x2a3d3a86e50; Suggest>. Please use the .select_from() method to establish an explicit left side, as well as providing an explicit ON clause if not present already to help resolve the ambiguity.
+Traceback (most recent call last):
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\pages\models_info.py", line 56, in evaluate_models
+    evaluate_result = models_ctrl.evaluate_model(model_ids, start_date, end_date)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\apis\models\controller.py", line 160, in evaluate_model
+    result = db.session.query(Bid, Suggest).join(Suggest).all()
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sqlalchemy\orm\query.py", line 2772, in all
+    return self._iter().all()
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sqlalchemy\orm\query.py", line 2907, in _iter
+    result = self.session.execute(
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sqlalchemy\orm\session.py", line 1712, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sqlalchemy\engine\base.py", line 1705, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sqlalchemy\sql\elements.py", line 333, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sqlalchemy\engine\base.py", line 1564, in _execute_clauseelement
+    compiled_sql, extracted_params, cache_hit = elem._compile_w_cache(
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sqlalchemy\sql\elements.py", line 531, in _compile_w_cache
+    compiled_sql = self._compiler(
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sqlalchemy\sql\elements.py", line 566, in _compiler
+    return dialect.statement_compiler(dialect, self, **kw)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sqlalchemy\sql\compiler.py", line 790, in __init__
+    Compiled.__init__(self, dialect, statement, **kwargs)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sqlalchemy\sql\compiler.py", line 463, in __init__
+    self.string = self.process(self.statement, **compile_kwargs)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sqlalchemy\sql\compiler.py", line 498, in process
+    return obj._compiler_dispatch(self, **kwargs)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sqlalchemy\sql\visitors.py", line 82, in _compiler_dispatch
+    return meth(self, **kw)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sqlalchemy\sql\compiler.py", line 3301, in visit_select
+    compile_state = select_stmt._compile_state_factory(
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sqlalchemy\sql\base.py", line 510, in create_for_statement
+    return klass.create_for_statement(statement, compiler, **kw)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sqlalchemy\orm\context.py", line 763, in create_for_statement
+    self._setup_for_generate()
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sqlalchemy\orm\context.py", line 794, in _setup_for_generate
+    self._legacy_join(query._legacy_setup_joins, self._entities)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sqlalchemy\orm\context.py", line 1668, in _legacy_join
+    self._join_left_to_right(
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sqlalchemy\orm\context.py", line 1710, in _join_left_to_right
+    ) = self._join_determine_implicit_left_side(
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sqlalchemy\orm\context.py", line 1874, in _join_determine_implicit_left_side
+    raise sa_exc.InvalidRequestError(
+sqlalchemy.exc.InvalidRequestError: Don't know how to join to <Mapper at 0x2a3d3a86e50; Suggest>. Please use the .select_from() method to establish an explicit left side, as well as providing an explicit ON clause if not present already to help resolve the ambiguity.
+2023-09-14 12:05:29,491,INFO,ProcID:21396,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 12:12:40,108,INFO,ProcID:3396,run.py,<module>,85, Start Logging.
+2023-09-14 12:12:41,896,INFO,ProcID:21836,run.py,<module>,85, Start Logging.
+2023-09-14 12:12:42,748,INFO,ProcID:21836,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 12:12:42,749,INFO,ProcID:21836,controller.py,get_models_information,30, get all models function starting
+2023-09-14 12:12:42,943,INFO,ProcID:21836,controller.py,get_models_information,43, get all models function end
+2023-09-14 12:12:42,991,INFO,ProcID:21836,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 12:12:43,379,INFO,ProcID:21836,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 12:12:43,379,INFO,ProcID:21836,controller.py,get_models_information,30, get all models function starting
+2023-09-14 12:12:43,381,INFO,ProcID:21836,controller.py,get_models_information,43, get all models function end
+2023-09-14 12:12:43,396,INFO,ProcID:21836,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 12:12:45,650,INFO,ProcID:21836,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 12:12:45,650,INFO,ProcID:21836,controller.py,evaluate_model,104, evaluate model function starting
+2023-09-14 12:12:45,665,ERROR,ProcID:21836,models_info.py,evaluate_models,65, type object 'Bid' has no attribute 'bid_result'
+Traceback (most recent call last):
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\pages\models_info.py", line 56, in evaluate_models
+    evaluate_result = models_ctrl.evaluate_model(model_ids, start_date, end_date)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\apis\models\controller.py", line 156, in evaluate_model
+    Bid.bid_result == 2
+AttributeError: type object 'Bid' has no attribute 'bid_result'
+2023-09-14 12:12:45,666,INFO,ProcID:21836,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 12:12:57,341,INFO,ProcID:10348,run.py,<module>,85, Start Logging.
+2023-09-14 12:13:01,686,INFO,ProcID:2916,run.py,<module>,85, Start Logging.
+2023-09-14 12:13:51,813,INFO,ProcID:20220,run.py,<module>,85, Start Logging.
+2023-09-14 12:13:52,283,INFO,ProcID:20220,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 12:13:52,283,INFO,ProcID:20220,controller.py,get_models_information,30, get all models function starting
+2023-09-14 12:13:52,452,INFO,ProcID:20220,controller.py,get_models_information,43, get all models function end
+2023-09-14 12:13:52,492,INFO,ProcID:20220,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 12:13:52,745,INFO,ProcID:20220,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 12:13:52,745,INFO,ProcID:20220,controller.py,get_models_information,30, get all models function starting
+2023-09-14 12:13:52,747,INFO,ProcID:20220,controller.py,get_models_information,43, get all models function end
+2023-09-14 12:13:52,762,INFO,ProcID:20220,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 12:13:54,538,INFO,ProcID:20220,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 12:13:54,538,INFO,ProcID:20220,controller.py,evaluate_model,104, evaluate model function starting
+2023-09-14 12:13:54,549,INFO,ProcID:20220,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 12:14:40,770,INFO,ProcID:23604,run.py,<module>,85, Start Logging.
+2023-09-14 12:16:21,124,INFO,ProcID:23604,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 12:16:21,124,INFO,ProcID:23604,controller.py,get_models_information,30, get all models function starting
+2023-09-14 12:16:21,293,INFO,ProcID:23604,controller.py,get_models_information,43, get all models function end
+2023-09-14 12:16:21,337,INFO,ProcID:23604,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 12:16:21,591,INFO,ProcID:23604,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 12:16:21,591,INFO,ProcID:23604,controller.py,get_models_information,30, get all models function starting
+2023-09-14 12:16:21,593,INFO,ProcID:23604,controller.py,get_models_information,43, get all models function end
+2023-09-14 12:16:21,608,INFO,ProcID:23604,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 12:16:23,127,INFO,ProcID:23604,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 12:16:23,128,INFO,ProcID:23604,controller.py,evaluate_model,104, evaluate model function starting
+2023-09-14 12:16:23,142,INFO,ProcID:23604,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 12:36:13,720,INFO,ProcID:11500,run.py,<module>,85, Start Logging.
+2023-09-14 12:36:15,318,INFO,ProcID:6920,run.py,<module>,85, Start Logging.
+2023-09-14 12:36:19,347,INFO,ProcID:6920,run.py,signin,96, Start function.
+2023-09-14 12:36:19,372,INFO,ProcID:6920,run.py,signin,101, Finish function.
+2023-09-14 12:36:20,690,INFO,ProcID:6920,run.py,login,114, Start function.
+2023-09-14 12:36:22,728,DEBUG,ProcID:6920,controller.py,create_economic_record,133, Date
+2023-08-14    83.089996
+2023-08-15    82.519997
+2023-08-16    81.230003
+2023-08-17    79.250000
+2023-08-18    80.040001
+2023-08-21    81.430000
+2023-08-22    80.800003
+2023-08-23    79.639999
+2023-08-24    78.570000
+2023-08-25    78.879997
+2023-08-28    80.150002
+2023-08-29    79.980003
+2023-08-30    81.290001
+2023-08-31    81.699997
+2023-09-01    83.629997
+2023-09-05    86.059998
+2023-09-06    86.720001
+2023-09-07    87.540001
+2023-09-08    86.779999
+2023-09-11    87.400002
+2023-09-12    87.269997
+2023-09-13    88.750000
+2023-09-14    88.809998
+Name: Open, dtype: float64
+2023-09-14 12:36:22,755,INFO,ProcID:6920,run.py,login,139, Finish function.
+2023-09-14 12:36:22,764,INFO,ProcID:6920,suggestion_info.py,suggests,35, Start function.
+2023-09-14 12:36:22,819,INFO,ProcID:6920,suggestion_info.py,suggests,69, Finish function.
+2023-09-14 12:36:32,886,INFO,ProcID:6920,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 12:36:32,886,INFO,ProcID:6920,controller.py,get_models_information,30, get all models function starting
+2023-09-14 12:36:32,889,INFO,ProcID:6920,controller.py,get_models_information,43, get all models function end
+2023-09-14 12:36:32,907,INFO,ProcID:6920,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 12:36:33,004,INFO,ProcID:6920,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 12:36:33,004,INFO,ProcID:6920,controller.py,get_models_information,30, get all models function starting
+2023-09-14 12:36:33,007,INFO,ProcID:6920,controller.py,get_models_information,43, get all models function end
+2023-09-14 12:36:33,020,INFO,ProcID:6920,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 12:36:35,076,INFO,ProcID:6920,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 12:36:35,076,INFO,ProcID:6920,controller.py,evaluate_model,104, evaluate model function starting
+2023-09-14 12:36:35,085,INFO,ProcID:6920,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 12:36:52,317,INFO,ProcID:13588,run.py,<module>,85, Start Logging.
+2023-09-14 12:36:57,830,INFO,ProcID:18216,run.py,<module>,85, Start Logging.
+2023-09-14 12:36:58,353,INFO,ProcID:18216,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 12:36:58,353,INFO,ProcID:18216,controller.py,get_models_information,30, get all models function starting
+2023-09-14 12:36:58,414,INFO,ProcID:18216,controller.py,get_models_information,43, get all models function end
+2023-09-14 12:36:58,455,INFO,ProcID:18216,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 12:36:58,704,INFO,ProcID:18216,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 12:36:58,704,INFO,ProcID:18216,controller.py,get_models_information,30, get all models function starting
+2023-09-14 12:36:58,705,INFO,ProcID:18216,controller.py,get_models_information,43, get all models function end
+2023-09-14 12:36:58,719,INFO,ProcID:18216,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 12:37:00,558,INFO,ProcID:18216,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 12:37:00,559,INFO,ProcID:18216,controller.py,evaluate_model,104, evaluate model function starting
+2023-09-14 12:37:00,576,INFO,ProcID:18216,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 12:37:27,154,INFO,ProcID:13376,run.py,<module>,85, Start Logging.
+2023-09-14 12:37:28,885,INFO,ProcID:1628,run.py,<module>,85, Start Logging.
+2023-09-14 12:37:40,713,INFO,ProcID:1628,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 12:37:40,713,INFO,ProcID:1628,controller.py,get_models_information,30, get all models function starting
+2023-09-14 12:37:40,877,INFO,ProcID:1628,controller.py,get_models_information,43, get all models function end
+2023-09-14 12:37:40,923,INFO,ProcID:1628,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 12:37:41,171,INFO,ProcID:1628,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 12:37:41,171,INFO,ProcID:1628,controller.py,get_models_information,30, get all models function starting
+2023-09-14 12:37:41,175,INFO,ProcID:1628,controller.py,get_models_information,43, get all models function end
+2023-09-14 12:37:41,190,INFO,ProcID:1628,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 12:37:42,544,INFO,ProcID:1628,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 12:37:42,544,INFO,ProcID:1628,controller.py,evaluate_model,104, evaluate model function starting
+2023-09-14 12:37:42,554,ERROR,ProcID:1628,models_info.py,evaluate_models,65, cannot unpack non-iterable Bid object
+Traceback (most recent call last):
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\pages\models_info.py", line 56, in evaluate_models
+    evaluate_result = models_ctrl.evaluate_model(model_ids, start_date, end_date)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\apis\models\controller.py", line 156, in evaluate_model
+    for bid, suggest in results:
+TypeError: cannot unpack non-iterable Bid object
+2023-09-14 12:37:42,555,INFO,ProcID:1628,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 12:37:52,760,INFO,ProcID:11556,run.py,<module>,85, Start Logging.
+2023-09-14 12:38:32,917,INFO,ProcID:10364,run.py,<module>,85, Start Logging.
+2023-09-14 12:38:38,702,INFO,ProcID:12904,run.py,<module>,85, Start Logging.
+2023-09-14 12:38:40,439,INFO,ProcID:12412,run.py,<module>,85, Start Logging.
+2023-09-14 12:38:40,538,INFO,ProcID:12412,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 12:38:40,538,INFO,ProcID:12412,controller.py,get_models_information,30, get all models function starting
+2023-09-14 12:38:40,600,INFO,ProcID:12412,controller.py,get_models_information,43, get all models function end
+2023-09-14 12:38:40,641,INFO,ProcID:12412,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 12:38:40,898,INFO,ProcID:12412,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 12:38:40,898,INFO,ProcID:12412,controller.py,get_models_information,30, get all models function starting
+2023-09-14 12:38:40,900,INFO,ProcID:12412,controller.py,get_models_information,43, get all models function end
+2023-09-14 12:38:40,914,INFO,ProcID:12412,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 12:38:43,292,INFO,ProcID:12412,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 12:38:43,292,INFO,ProcID:12412,controller.py,evaluate_model,104, evaluate model function starting
+2023-09-14 12:38:43,304,INFO,ProcID:12412,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 12:39:22,955,INFO,ProcID:8588,run.py,<module>,85, Start Logging.
+2023-09-14 12:39:28,252,INFO,ProcID:7724,run.py,<module>,85, Start Logging.
+2023-09-14 12:39:41,321,INFO,ProcID:1640,run.py,<module>,85, Start Logging.
+2023-09-14 12:39:45,230,INFO,ProcID:1640,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 12:39:45,230,INFO,ProcID:1640,controller.py,get_models_information,30, get all models function starting
+2023-09-14 12:39:45,392,INFO,ProcID:1640,controller.py,get_models_information,43, get all models function end
+2023-09-14 12:39:45,439,INFO,ProcID:1640,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 12:39:45,667,INFO,ProcID:1640,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 12:39:45,667,INFO,ProcID:1640,controller.py,get_models_information,30, get all models function starting
+2023-09-14 12:39:45,670,INFO,ProcID:1640,controller.py,get_models_information,43, get all models function end
+2023-09-14 12:39:45,683,INFO,ProcID:1640,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 12:39:47,104,INFO,ProcID:1640,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 12:39:47,104,INFO,ProcID:1640,controller.py,evaluate_model,104, evaluate model function starting
+2023-09-14 12:39:47,115,ERROR,ProcID:1640,models_info.py,evaluate_models,65, 'Bid' object has no attribute 'key'
+Traceback (most recent call last):
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\pages\models_info.py", line 56, in evaluate_models
+    evaluate_result = models_ctrl.evaluate_model(model_ids, start_date, end_date)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\apis\models\controller.py", line 157, in evaluate_model
+    print(f"key: {result.key}, value: {result.value}")
+AttributeError: 'Bid' object has no attribute 'key'
+2023-09-14 12:39:47,116,INFO,ProcID:1640,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 12:39:58,531,INFO,ProcID:5100,run.py,<module>,85, Start Logging.
+2023-09-14 12:40:06,082,INFO,ProcID:25272,run.py,<module>,85, Start Logging.
+2023-09-14 12:40:06,371,INFO,ProcID:25272,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 12:40:06,371,INFO,ProcID:25272,controller.py,get_models_information,30, get all models function starting
+2023-09-14 12:40:06,541,INFO,ProcID:25272,controller.py,get_models_information,43, get all models function end
+2023-09-14 12:40:06,581,INFO,ProcID:25272,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 12:40:06,822,INFO,ProcID:25272,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 12:40:06,822,INFO,ProcID:25272,controller.py,get_models_information,30, get all models function starting
+2023-09-14 12:40:06,824,INFO,ProcID:25272,controller.py,get_models_information,43, get all models function end
+2023-09-14 12:40:06,834,INFO,ProcID:25272,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 12:40:08,312,INFO,ProcID:25272,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 12:40:08,313,INFO,ProcID:25272,controller.py,evaluate_model,104, evaluate model function starting
+2023-09-14 12:40:08,324,INFO,ProcID:25272,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 12:40:31,097,INFO,ProcID:14840,run.py,<module>,85, Start Logging.
+2023-09-14 12:40:45,188,INFO,ProcID:13612,run.py,<module>,85, Start Logging.
+2023-09-14 12:40:47,986,INFO,ProcID:13612,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 12:40:47,986,INFO,ProcID:13612,controller.py,get_models_information,30, get all models function starting
+2023-09-14 12:40:48,044,INFO,ProcID:13612,controller.py,get_models_information,43, get all models function end
+2023-09-14 12:40:48,086,INFO,ProcID:13612,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 12:40:48,330,INFO,ProcID:13612,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 12:40:48,331,INFO,ProcID:13612,controller.py,get_models_information,30, get all models function starting
+2023-09-14 12:40:48,332,INFO,ProcID:13612,controller.py,get_models_information,43, get all models function end
+2023-09-14 12:40:48,356,INFO,ProcID:13612,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 12:40:51,454,INFO,ProcID:13612,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 12:40:51,454,INFO,ProcID:13612,controller.py,evaluate_model,104, evaluate model function starting
+2023-09-14 12:40:51,465,ERROR,ProcID:13612,models_info.py,evaluate_models,65, 'Suggest' object has no attribute 'economic'
+Traceback (most recent call last):
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\pages\models_info.py", line 56, in evaluate_models
+    evaluate_result = models_ctrl.evaluate_model(model_ids, start_date, end_date)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\apis\models\controller.py", line 158, in evaluate_model
+    print(f"value: {result.economic}")
+AttributeError: 'Suggest' object has no attribute 'economic'
+2023-09-14 12:40:51,466,INFO,ProcID:13612,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 12:41:12,363,INFO,ProcID:24868,run.py,<module>,85, Start Logging.
+2023-09-14 12:41:17,586,INFO,ProcID:9688,run.py,<module>,85, Start Logging.
+2023-09-14 12:41:23,984,INFO,ProcID:24728,run.py,<module>,85, Start Logging.
+2023-09-14 12:41:32,682,INFO,ProcID:25520,run.py,<module>,85, Start Logging.
+2023-09-14 12:41:33,114,INFO,ProcID:25520,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 12:41:33,114,INFO,ProcID:25520,controller.py,get_models_information,30, get all models function starting
+2023-09-14 12:41:33,283,INFO,ProcID:25520,controller.py,get_models_information,43, get all models function end
+2023-09-14 12:41:33,327,INFO,ProcID:25520,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 12:41:33,566,INFO,ProcID:25520,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 12:41:33,567,INFO,ProcID:25520,controller.py,get_models_information,30, get all models function starting
+2023-09-14 12:41:33,568,INFO,ProcID:25520,controller.py,get_models_information,43, get all models function end
+2023-09-14 12:41:33,584,INFO,ProcID:25520,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 12:41:35,343,INFO,ProcID:25520,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 12:41:35,343,INFO,ProcID:25520,controller.py,evaluate_model,104, evaluate model function starting
+2023-09-14 12:41:35,352,ERROR,ProcID:25520,models_info.py,evaluate_models,65, 'Bid' object is not iterable
+Traceback (most recent call last):
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\pages\models_info.py", line 56, in evaluate_models
+    evaluate_result = models_ctrl.evaluate_model(model_ids, start_date, end_date)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\apis\models\controller.py", line 156, in evaluate_model
+    for result in results:
+TypeError: 'Bid' object is not iterable
+2023-09-14 12:41:35,353,INFO,ProcID:25520,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 12:41:54,313,INFO,ProcID:16596,run.py,<module>,85, Start Logging.
+2023-09-14 12:42:00,824,INFO,ProcID:11832,run.py,<module>,85, Start Logging.
+2023-09-14 12:42:10,586,INFO,ProcID:18072,run.py,<module>,85, Start Logging.
+2023-09-14 12:42:16,049,INFO,ProcID:17168,run.py,<module>,85, Start Logging.
+2023-09-14 12:42:18,106,INFO,ProcID:17168,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 12:42:18,107,INFO,ProcID:17168,controller.py,get_models_information,30, get all models function starting
+2023-09-14 12:42:18,170,INFO,ProcID:17168,controller.py,get_models_information,43, get all models function end
+2023-09-14 12:42:18,209,INFO,ProcID:17168,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 12:42:18,554,INFO,ProcID:17168,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 12:42:18,554,INFO,ProcID:17168,controller.py,get_models_information,30, get all models function starting
+2023-09-14 12:42:18,556,INFO,ProcID:17168,controller.py,get_models_information,43, get all models function end
+2023-09-14 12:42:18,581,INFO,ProcID:17168,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 12:42:20,527,INFO,ProcID:17168,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 12:42:20,527,INFO,ProcID:17168,controller.py,evaluate_model,104, evaluate model function starting
+2023-09-14 12:42:20,538,INFO,ProcID:17168,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 12:42:45,702,INFO,ProcID:25476,run.py,<module>,85, Start Logging.
+2023-09-14 12:42:50,098,INFO,ProcID:13016,run.py,<module>,85, Start Logging.
+2023-09-14 12:42:53,985,INFO,ProcID:13016,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 12:42:53,985,INFO,ProcID:13016,controller.py,get_models_information,30, get all models function starting
+2023-09-14 12:42:54,043,INFO,ProcID:13016,controller.py,get_models_information,43, get all models function end
+2023-09-14 12:42:54,085,INFO,ProcID:13016,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 12:42:54,322,INFO,ProcID:13016,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 12:42:54,322,INFO,ProcID:13016,controller.py,get_models_information,30, get all models function starting
+2023-09-14 12:42:54,323,INFO,ProcID:13016,controller.py,get_models_information,43, get all models function end
+2023-09-14 12:42:54,337,INFO,ProcID:13016,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 12:42:56,132,INFO,ProcID:13016,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 12:42:56,132,INFO,ProcID:13016,controller.py,evaluate_model,104, evaluate model function starting
+2023-09-14 12:42:56,141,ERROR,ProcID:13016,models_info.py,evaluate_models,65, 'Bid' object has no attribute 'composition_zn'
+Traceback (most recent call last):
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\pages\models_info.py", line 56, in evaluate_models
+    evaluate_result = models_ctrl.evaluate_model(model_ids, start_date, end_date)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\apis\models\controller.py", line 158, in evaluate_model
+    print("compositionn", results.composition_zn)
+AttributeError: 'Bid' object has no attribute 'composition_zn'
+2023-09-14 12:42:56,142,INFO,ProcID:13016,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 12:43:42,564,INFO,ProcID:1052,run.py,<module>,85, Start Logging.
+2023-09-14 12:43:52,187,INFO,ProcID:1052,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 12:43:52,188,INFO,ProcID:1052,controller.py,get_models_information,30, get all models function starting
+2023-09-14 12:43:52,348,INFO,ProcID:1052,controller.py,get_models_information,43, get all models function end
+2023-09-14 12:43:52,390,INFO,ProcID:1052,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 12:43:52,666,INFO,ProcID:1052,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 12:43:52,666,INFO,ProcID:1052,controller.py,get_models_information,30, get all models function starting
+2023-09-14 12:43:52,667,INFO,ProcID:1052,controller.py,get_models_information,43, get all models function end
+2023-09-14 12:43:52,682,INFO,ProcID:1052,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 12:43:54,415,INFO,ProcID:1052,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 12:43:54,415,INFO,ProcID:1052,controller.py,evaluate_model,104, evaluate model function starting
+2023-09-14 12:43:54,424,ERROR,ProcID:1052,models_info.py,evaluate_models,65, 'Bid' object has no attribute 'bid_state'
+Traceback (most recent call last):
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\pages\models_info.py", line 56, in evaluate_models
+    evaluate_result = models_ctrl.evaluate_model(model_ids, start_date, end_date)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\apis\models\controller.py", line 158, in evaluate_model
+    print("compositionn", results.bid_state)
+AttributeError: 'Bid' object has no attribute 'bid_state'
+2023-09-14 12:43:54,424,INFO,ProcID:1052,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 12:44:45,906,INFO,ProcID:8216,run.py,<module>,85, Start Logging.
+2023-09-14 12:47:10,441,INFO,ProcID:20460,run.py,<module>,85, Start Logging.
+2023-09-14 12:47:15,766,INFO,ProcID:19000,run.py,<module>,85, Start Logging.
+2023-09-14 12:47:18,112,INFO,ProcID:19000,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 12:47:18,112,INFO,ProcID:19000,controller.py,get_models_information,30, get all models function starting
+2023-09-14 12:47:18,292,INFO,ProcID:19000,controller.py,get_models_information,43, get all models function end
+2023-09-14 12:47:18,340,INFO,ProcID:19000,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 12:47:18,592,INFO,ProcID:19000,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 12:47:18,592,INFO,ProcID:19000,controller.py,get_models_information,30, get all models function starting
+2023-09-14 12:47:18,593,INFO,ProcID:19000,controller.py,get_models_information,43, get all models function end
+2023-09-14 12:47:18,608,INFO,ProcID:19000,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 12:47:19,822,INFO,ProcID:19000,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 12:47:19,822,INFO,ProcID:19000,controller.py,evaluate_model,104, evaluate model function starting
+2023-09-14 12:47:19,839,INFO,ProcID:19000,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 12:48:35,298,INFO,ProcID:22260,run.py,<module>,85, Start Logging.
+2023-09-14 12:48:39,659,INFO,ProcID:23700,run.py,<module>,85, Start Logging.
+2023-09-14 12:52:55,130,INFO,ProcID:19272,run.py,<module>,85, Start Logging.
+2023-09-14 12:52:56,722,INFO,ProcID:13192,run.py,<module>,85, Start Logging.
+2023-09-14 12:53:09,353,INFO,ProcID:13192,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 12:53:09,353,INFO,ProcID:13192,controller.py,get_models_information,30, get all models function starting
+2023-09-14 12:53:09,415,INFO,ProcID:13192,controller.py,get_models_information,43, get all models function end
+2023-09-14 12:53:09,454,INFO,ProcID:13192,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 12:53:09,688,INFO,ProcID:13192,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 12:53:09,689,INFO,ProcID:13192,controller.py,get_models_information,30, get all models function starting
+2023-09-14 12:53:09,690,INFO,ProcID:13192,controller.py,get_models_information,43, get all models function end
+2023-09-14 12:53:09,705,INFO,ProcID:13192,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 12:56:04,649,INFO,ProcID:6580,run.py,<module>,85, Start Logging.
+2023-09-14 13:00:48,410,INFO,ProcID:14992,run.py,<module>,85, Start Logging.
+2023-09-14 13:00:50,067,INFO,ProcID:24116,run.py,<module>,85, Start Logging.
+2023-09-14 13:00:53,649,INFO,ProcID:24116,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 13:00:53,649,INFO,ProcID:24116,controller.py,get_models_information,30, get all models function starting
+2023-09-14 13:00:53,710,INFO,ProcID:24116,controller.py,get_models_information,43, get all models function end
+2023-09-14 13:00:53,749,INFO,ProcID:24116,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 13:00:53,981,INFO,ProcID:24116,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 13:00:53,981,INFO,ProcID:24116,controller.py,get_models_information,30, get all models function starting
+2023-09-14 13:00:53,982,INFO,ProcID:24116,controller.py,get_models_information,43, get all models function end
+2023-09-14 13:00:53,993,INFO,ProcID:24116,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 13:00:55,941,INFO,ProcID:24116,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 13:00:55,941,INFO,ProcID:24116,controller.py,evaluate_model,104, evaluate model function starting
+2023-09-14 13:00:55,956,INFO,ProcID:24116,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 13:02:47,813,INFO,ProcID:7700,run.py,<module>,85, Start Logging.
+2023-09-14 13:08:22,219,INFO,ProcID:14936,run.py,<module>,85, Start Logging.
+2023-09-14 13:08:23,944,INFO,ProcID:20096,run.py,<module>,85, Start Logging.
+2023-09-14 13:08:24,044,INFO,ProcID:20096,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 13:08:24,044,INFO,ProcID:20096,controller.py,get_models_information,30, get all models function starting
+2023-09-14 13:08:24,214,INFO,ProcID:20096,controller.py,get_models_information,43, get all models function end
+2023-09-14 13:08:24,255,INFO,ProcID:20096,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 13:08:24,513,INFO,ProcID:20096,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 13:08:24,514,INFO,ProcID:20096,controller.py,get_models_information,30, get all models function starting
+2023-09-14 13:08:24,515,INFO,ProcID:20096,controller.py,get_models_information,43, get all models function end
+2023-09-14 13:08:24,527,INFO,ProcID:20096,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 13:08:25,905,INFO,ProcID:20096,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 13:08:25,906,INFO,ProcID:20096,controller.py,evaluate_model,104, evaluate model function starting
+2023-09-14 13:08:25,918,INFO,ProcID:20096,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 13:08:39,672,INFO,ProcID:20096,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 13:08:39,672,INFO,ProcID:20096,controller.py,evaluate_model,104, evaluate model function starting
+2023-09-14 13:08:39,675,INFO,ProcID:20096,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 13:09:24,569,INFO,ProcID:22880,run.py,<module>,85, Start Logging.
+2023-09-14 13:14:03,005,INFO,ProcID:20164,run.py,<module>,85, Start Logging.
+2023-09-14 13:14:04,723,INFO,ProcID:22740,run.py,<module>,85, Start Logging.
+2023-09-14 13:14:04,964,INFO,ProcID:22740,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 13:14:04,964,INFO,ProcID:22740,controller.py,get_models_information,30, get all models function starting
+2023-09-14 13:14:05,023,INFO,ProcID:22740,controller.py,get_models_information,43, get all models function end
+2023-09-14 13:14:05,063,INFO,ProcID:22740,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 13:14:05,313,INFO,ProcID:22740,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 13:14:05,313,INFO,ProcID:22740,controller.py,get_models_information,30, get all models function starting
+2023-09-14 13:14:05,314,INFO,ProcID:22740,controller.py,get_models_information,43, get all models function end
+2023-09-14 13:14:05,325,INFO,ProcID:22740,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 13:14:06,965,INFO,ProcID:22740,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 13:14:06,965,INFO,ProcID:22740,controller.py,evaluate_model,104, evaluate model function starting
+2023-09-14 13:14:06,977,INFO,ProcID:22740,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 13:16:13,611,INFO,ProcID:16632,run.py,<module>,85, Start Logging.
+2023-09-14 13:16:15,341,INFO,ProcID:11068,run.py,<module>,85, Start Logging.
+2023-09-14 13:16:15,568,INFO,ProcID:11068,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 13:16:15,569,INFO,ProcID:11068,controller.py,get_models_information,30, get all models function starting
+2023-09-14 13:16:15,625,INFO,ProcID:11068,controller.py,get_models_information,43, get all models function end
+2023-09-14 13:16:15,664,INFO,ProcID:11068,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 13:16:15,914,INFO,ProcID:11068,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 13:16:15,914,INFO,ProcID:11068,controller.py,get_models_information,30, get all models function starting
+2023-09-14 13:16:15,916,INFO,ProcID:11068,controller.py,get_models_information,43, get all models function end
+2023-09-14 13:16:15,928,INFO,ProcID:11068,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 13:16:17,616,INFO,ProcID:11068,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 13:16:17,617,INFO,ProcID:11068,controller.py,evaluate_model,104, evaluate model function starting
+2023-09-14 13:16:17,626,INFO,ProcID:11068,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 13:17:25,979,INFO,ProcID:3152,run.py,<module>,85, Start Logging.
+2023-09-14 13:17:34,557,INFO,ProcID:23800,run.py,<module>,85, Start Logging.
+2023-09-14 13:17:38,775,INFO,ProcID:23400,run.py,<module>,85, Start Logging.
+2023-09-14 13:17:43,146,INFO,ProcID:16488,run.py,<module>,85, Start Logging.
+2023-09-14 13:17:46,180,INFO,ProcID:24708,run.py,<module>,85, Start Logging.
+2023-09-14 13:18:15,384,INFO,ProcID:3472,run.py,<module>,85, Start Logging.
+2023-09-14 13:18:41,447,INFO,ProcID:18332,run.py,<module>,85, Start Logging.
+2023-09-14 13:18:43,194,INFO,ProcID:16004,run.py,<module>,85, Start Logging.
+2023-09-14 13:18:45,474,INFO,ProcID:16004,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 13:18:45,474,INFO,ProcID:16004,controller.py,get_models_information,30, get all models function starting
+2023-09-14 13:18:45,638,INFO,ProcID:16004,controller.py,get_models_information,43, get all models function end
+2023-09-14 13:18:45,679,INFO,ProcID:16004,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 13:18:45,919,INFO,ProcID:16004,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 13:18:45,920,INFO,ProcID:16004,controller.py,get_models_information,30, get all models function starting
+2023-09-14 13:18:45,921,INFO,ProcID:16004,controller.py,get_models_information,43, get all models function end
+2023-09-14 13:18:45,932,INFO,ProcID:16004,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 13:18:47,404,INFO,ProcID:16004,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 13:18:47,404,INFO,ProcID:16004,controller.py,evaluate_model,104, evaluate model function starting
+2023-09-14 13:18:47,414,INFO,ProcID:16004,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 13:26:56,888,INFO,ProcID:11516,run.py,<module>,85, Start Logging.
+2023-09-14 13:27:01,183,INFO,ProcID:2948,run.py,<module>,85, Start Logging.
+2023-09-14 13:27:04,122,INFO,ProcID:2948,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 13:27:04,122,INFO,ProcID:2948,controller.py,get_models_information,30, get all models function starting
+2023-09-14 13:27:04,179,INFO,ProcID:2948,controller.py,get_models_information,43, get all models function end
+2023-09-14 13:27:04,220,INFO,ProcID:2948,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 13:27:04,456,INFO,ProcID:2948,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 13:27:04,456,INFO,ProcID:2948,controller.py,get_models_information,30, get all models function starting
+2023-09-14 13:27:04,457,INFO,ProcID:2948,controller.py,get_models_information,43, get all models function end
+2023-09-14 13:27:04,470,INFO,ProcID:2948,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 13:27:06,094,INFO,ProcID:2948,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 13:27:06,094,INFO,ProcID:2948,controller.py,evaluate_model,104, evaluate model function starting
+2023-09-14 13:27:06,104,INFO,ProcID:2948,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 13:37:20,271,INFO,ProcID:8416,run.py,<module>,85, Start Logging.
+2023-09-14 13:37:21,882,INFO,ProcID:25196,run.py,<module>,85, Start Logging.
+2023-09-14 13:37:24,187,INFO,ProcID:25196,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 13:37:24,188,INFO,ProcID:25196,controller.py,get_models_information,30, get all models function starting
+2023-09-14 13:37:24,250,INFO,ProcID:25196,controller.py,get_models_information,43, get all models function end
+2023-09-14 13:37:24,293,INFO,ProcID:25196,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 13:37:24,540,INFO,ProcID:25196,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 13:37:24,540,INFO,ProcID:25196,controller.py,get_models_information,30, get all models function starting
+2023-09-14 13:37:24,541,INFO,ProcID:25196,controller.py,get_models_information,43, get all models function end
+2023-09-14 13:37:24,551,INFO,ProcID:25196,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 13:37:26,641,INFO,ProcID:25196,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 13:37:26,641,INFO,ProcID:25196,controller.py,evaluate_model,104, evaluate model function starting
+2023-09-14 13:37:26,655,INFO,ProcID:25196,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 13:38:45,574,INFO,ProcID:20004,run.py,<module>,85, Start Logging.
+2023-09-14 13:38:52,007,INFO,ProcID:18888,run.py,<module>,85, Start Logging.
+2023-09-14 13:38:56,451,INFO,ProcID:12944,run.py,<module>,85, Start Logging.
+2023-09-14 13:47:24,653,INFO,ProcID:19732,run.py,<module>,85, Start Logging.
+2023-09-14 13:47:26,417,INFO,ProcID:23360,run.py,<module>,85, Start Logging.
+2023-09-14 13:47:30,112,INFO,ProcID:23360,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 13:47:30,112,INFO,ProcID:23360,controller.py,get_models_information,30, get all models function starting
+2023-09-14 13:47:30,173,INFO,ProcID:23360,controller.py,get_models_information,43, get all models function end
+2023-09-14 13:47:30,213,INFO,ProcID:23360,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 13:47:30,525,INFO,ProcID:23360,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 13:47:30,525,INFO,ProcID:23360,controller.py,get_models_information,30, get all models function starting
+2023-09-14 13:47:30,526,INFO,ProcID:23360,controller.py,get_models_information,43, get all models function end
+2023-09-14 13:47:30,537,INFO,ProcID:23360,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 13:47:32,744,INFO,ProcID:23360,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 13:47:32,744,INFO,ProcID:23360,controller.py,evaluate_model,104, evaluate model function starting
+2023-09-14 13:47:32,753,INFO,ProcID:23360,controller.py,predict,56, predict starting
+2023-09-14 13:47:32,753,ERROR,ProcID:23360,models_info.py,evaluate_models,65, [Errno 2] No such file or directory: 'C:\\models\\output\\AK5M2\\sc_AK5M2_20230906_141320.pkl'
+Traceback (most recent call last):
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\pages\models_info.py", line 56, in evaluate_models
+    evaluate_result = models_ctrl.evaluate_model(model_ids, start_date, end_date)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\apis\models\controller.py", line 153, in evaluate_model
+    "predict_value": predict(model_record_info, ai_x_variables)[0]
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\apis\models\controller.py", line 60, in predict
+    sc = pickle.load(open(sc_file, "rb"))
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\models\\output\\AK5M2\\sc_AK5M2_20230906_141320.pkl'
+2023-09-14 13:47:32,754,INFO,ProcID:23360,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 13:49:26,440,INFO,ProcID:4628,run.py,<module>,85, Start Logging.
+2023-09-14 13:49:28,222,INFO,ProcID:14100,run.py,<module>,85, Start Logging.
+2023-09-14 13:49:30,139,INFO,ProcID:14100,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 13:49:30,139,INFO,ProcID:14100,controller.py,get_models_information,30, get all models function starting
+2023-09-14 13:49:30,204,INFO,ProcID:14100,controller.py,get_models_information,43, get all models function end
+2023-09-14 13:49:30,249,INFO,ProcID:14100,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 13:49:30,632,INFO,ProcID:14100,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 13:49:30,632,INFO,ProcID:14100,controller.py,get_models_information,30, get all models function starting
+2023-09-14 13:49:30,634,INFO,ProcID:14100,controller.py,get_models_information,43, get all models function end
+2023-09-14 13:49:30,651,INFO,ProcID:14100,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 13:49:32,617,INFO,ProcID:14100,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 13:49:32,617,INFO,ProcID:14100,controller.py,evaluate_model,104, evaluate model function starting
+2023-09-14 13:49:32,626,INFO,ProcID:14100,controller.py,predict,56, predict starting
+2023-09-14 13:49:32,626,ERROR,ProcID:14100,models_info.py,evaluate_models,65, X has 122 features, but StandardScaler is expecting 10 features as input.
+Traceback (most recent call last):
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\pages\models_info.py", line 56, in evaluate_models
+    evaluate_result = models_ctrl.evaluate_model(model_ids, start_date, end_date)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\apis\models\controller.py", line 153, in evaluate_model
+    "predict_value": predict(model_record_info, ai_x_variables)[0]
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\apis\models\controller.py", line 70, in predict
+    x_transform = sc.transform(x_array)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sklearn\preprocessing\_data.py", line 975, in transform
+    X = self._validate_data(
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sklearn\base.py", line 600, in _validate_data
+    self._check_n_features(X, reset=reset)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sklearn\base.py", line 400, in _check_n_features
+    raise ValueError(
+ValueError: X has 122 features, but StandardScaler is expecting 10 features as input.
+2023-09-14 13:49:32,654,INFO,ProcID:14100,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 13:50:38,045,INFO,ProcID:23072,run.py,<module>,85, Start Logging.
+2023-09-14 13:50:41,208,INFO,ProcID:22576,run.py,<module>,85, Start Logging.
+2023-09-14 13:50:45,722,INFO,ProcID:18496,run.py,<module>,85, Start Logging.
+2023-09-14 13:50:47,912,INFO,ProcID:18496,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 13:50:47,912,INFO,ProcID:18496,controller.py,get_models_information,30, get all models function starting
+2023-09-14 13:50:48,084,INFO,ProcID:18496,controller.py,get_models_information,43, get all models function end
+2023-09-14 13:50:48,127,INFO,ProcID:18496,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 13:50:48,392,INFO,ProcID:18496,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 13:50:48,392,INFO,ProcID:18496,controller.py,get_models_information,30, get all models function starting
+2023-09-14 13:50:48,393,INFO,ProcID:18496,controller.py,get_models_information,43, get all models function end
+2023-09-14 13:50:48,406,INFO,ProcID:18496,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 13:50:50,461,INFO,ProcID:18496,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 13:50:50,461,INFO,ProcID:18496,controller.py,evaluate_model,104, evaluate model function starting
+2023-09-14 13:50:50,470,INFO,ProcID:18496,controller.py,predict,56, predict starting
+2023-09-14 13:50:50,471,ERROR,ProcID:18496,models_info.py,evaluate_models,65, Input X contains NaN.
+Ridge does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
+Traceback (most recent call last):
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\pages\models_info.py", line 56, in evaluate_models
+    evaluate_result = models_ctrl.evaluate_model(model_ids, start_date, end_date)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\apis\models\controller.py", line 154, in evaluate_model
+    "real_value": bid.bid_price,
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\apis\models\controller.py", line 76, in predict
+    y_ridge = ridge_model.predict(x_transform)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sklearn\linear_model\_base.py", line 386, in predict
+    return self._decision_function(X)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sklearn\linear_model\_base.py", line 369, in _decision_function
+    X = self._validate_data(X, accept_sparse=["csr", "csc", "coo"], reset=False)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sklearn\base.py", line 577, in _validate_data
+    X = check_array(X, input_name="X", **check_params)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sklearn\utils\validation.py", line 899, in check_array
+    _assert_all_finite(
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sklearn\utils\validation.py", line 146, in _assert_all_finite
+    raise ValueError(msg_err)
+ValueError: Input X contains NaN.
+Ridge does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
+2023-09-14 13:50:50,501,INFO,ProcID:18496,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 13:51:13,918,INFO,ProcID:20380,run.py,<module>,85, Start Logging.
+2023-09-14 13:51:18,068,INFO,ProcID:12180,run.py,<module>,85, Start Logging.
+2023-09-14 13:51:34,880,INFO,ProcID:8264,run.py,<module>,85, Start Logging.
+2023-09-14 13:51:36,754,INFO,ProcID:9444,run.py,<module>,85, Start Logging.
+2023-09-14 13:51:45,441,INFO,ProcID:9444,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 13:51:45,441,INFO,ProcID:9444,controller.py,get_models_information,30, get all models function starting
+2023-09-14 13:51:45,500,INFO,ProcID:9444,controller.py,get_models_information,43, get all models function end
+2023-09-14 13:51:45,543,INFO,ProcID:9444,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 13:51:45,831,INFO,ProcID:9444,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 13:51:45,831,INFO,ProcID:9444,controller.py,get_models_information,30, get all models function starting
+2023-09-14 13:51:45,832,INFO,ProcID:9444,controller.py,get_models_information,43, get all models function end
+2023-09-14 13:51:45,848,INFO,ProcID:9444,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 13:51:47,276,INFO,ProcID:9444,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 13:51:47,277,INFO,ProcID:9444,controller.py,evaluate_model,104, evaluate model function starting
+2023-09-14 13:51:47,286,INFO,ProcID:9444,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 13:52:36,864,INFO,ProcID:15888,run.py,<module>,85, Start Logging.
+2023-09-14 13:52:38,691,INFO,ProcID:1508,run.py,<module>,85, Start Logging.
+2023-09-14 13:52:39,194,INFO,ProcID:1508,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 13:52:39,194,INFO,ProcID:1508,controller.py,get_models_information,30, get all models function starting
+2023-09-14 13:52:39,361,INFO,ProcID:1508,controller.py,get_models_information,43, get all models function end
+2023-09-14 13:52:39,408,INFO,ProcID:1508,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 13:52:39,678,INFO,ProcID:1508,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 13:52:39,678,INFO,ProcID:1508,controller.py,get_models_information,30, get all models function starting
+2023-09-14 13:52:39,680,INFO,ProcID:1508,controller.py,get_models_information,43, get all models function end
+2023-09-14 13:52:39,696,INFO,ProcID:1508,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 13:52:41,182,INFO,ProcID:1508,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 13:52:41,182,INFO,ProcID:1508,controller.py,evaluate_model,104, evaluate model function starting
+2023-09-14 13:52:41,190,INFO,ProcID:1508,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 13:53:38,459,INFO,ProcID:8048,run.py,<module>,85, Start Logging.
+2023-09-14 13:53:44,197,INFO,ProcID:8048,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 13:53:44,197,INFO,ProcID:8048,controller.py,get_models_information,30, get all models function starting
+2023-09-14 13:53:44,361,INFO,ProcID:8048,controller.py,get_models_information,43, get all models function end
+2023-09-14 13:53:44,409,INFO,ProcID:8048,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 13:53:44,652,INFO,ProcID:8048,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 13:53:44,652,INFO,ProcID:8048,controller.py,get_models_information,30, get all models function starting
+2023-09-14 13:53:44,653,INFO,ProcID:8048,controller.py,get_models_information,43, get all models function end
+2023-09-14 13:53:44,670,INFO,ProcID:8048,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 13:53:46,044,INFO,ProcID:8048,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 13:53:46,044,INFO,ProcID:8048,controller.py,evaluate_model,104, evaluate model function starting
+2023-09-14 13:53:46,052,INFO,ProcID:8048,controller.py,predict,56, predict starting
+2023-09-14 13:53:46,053,ERROR,ProcID:8048,models_info.py,evaluate_models,65, Input X contains NaN.
+Ridge does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
+Traceback (most recent call last):
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\pages\models_info.py", line 56, in evaluate_models
+    evaluate_result = models_ctrl.evaluate_model(model_ids, start_date, end_date)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\apis\models\controller.py", line 155, in evaluate_model
+    "predict_value": predict(model_record_info, ai_x_variables)[0]
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\apis\models\controller.py", line 76, in predict
+    y_ridge = ridge_model.predict(x_transform)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sklearn\linear_model\_base.py", line 386, in predict
+    return self._decision_function(X)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sklearn\linear_model\_base.py", line 369, in _decision_function
+    X = self._validate_data(X, accept_sparse=["csr", "csc", "coo"], reset=False)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sklearn\base.py", line 577, in _validate_data
+    X = check_array(X, input_name="X", **check_params)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sklearn\utils\validation.py", line 899, in check_array
+    _assert_all_finite(
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\buyer_web_env\lib\site-packages\sklearn\utils\validation.py", line 146, in _assert_all_finite
+    raise ValueError(msg_err)
+ValueError: Input X contains NaN.
+Ridge does not accept missing values encoded as NaN natively. For supervised learning, you might want to consider sklearn.ensemble.HistGradientBoostingClassifier and Regressor which accept missing values encoded as NaNs natively. Alternatively, it is possible to preprocess the data, for instance by using an imputer transformer in a pipeline or drop samples with missing values. See https://scikit-learn.org/stable/modules/impute.html You can find a list of all estimators that handle NaN values at the following page: https://scikit-learn.org/stable/modules/impute.html#estimators-that-handle-nan-values
+2023-09-14 13:53:46,055,INFO,ProcID:8048,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 13:54:22,976,INFO,ProcID:12768,run.py,<module>,85, Start Logging.
+2023-09-14 13:54:25,167,INFO,ProcID:10852,run.py,<module>,85, Start Logging.
+2023-09-14 13:54:28,368,INFO,ProcID:4064,run.py,<module>,85, Start Logging.
+2023-09-14 13:54:29,918,INFO,ProcID:4064,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 13:54:29,918,INFO,ProcID:4064,controller.py,get_models_information,30, get all models function starting
+2023-09-14 13:54:29,976,INFO,ProcID:4064,controller.py,get_models_information,43, get all models function end
+2023-09-14 13:54:30,020,INFO,ProcID:4064,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 13:54:30,292,INFO,ProcID:4064,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 13:54:30,292,INFO,ProcID:4064,controller.py,get_models_information,30, get all models function starting
+2023-09-14 13:54:30,294,INFO,ProcID:4064,controller.py,get_models_information,43, get all models function end
+2023-09-14 13:54:30,308,INFO,ProcID:4064,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 13:54:31,964,INFO,ProcID:4064,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 13:54:31,964,INFO,ProcID:4064,controller.py,evaluate_model,108, evaluate model function starting
+2023-09-14 13:54:31,973,INFO,ProcID:4064,controller.py,predict,56, predict starting
+2023-09-14 13:54:31,974,ERROR,ProcID:4064,models_info.py,evaluate_models,65, 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\pages\models_info.py", line 56, in evaluate_models
+    evaluate_result = models_ctrl.evaluate_model(model_ids, start_date, end_date)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\apis\models\controller.py", line 159, in evaluate_model
+    "predict_value": predict(model_record_info, ai_x_variables)[0]
+TypeError: 'NoneType' object is not subscriptable
+2023-09-14 13:54:31,975,INFO,ProcID:4064,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 13:55:11,808,INFO,ProcID:15980,run.py,<module>,85, Start Logging.
+2023-09-14 13:55:20,494,INFO,ProcID:14628,run.py,<module>,85, Start Logging.
+2023-09-14 13:55:23,405,INFO,ProcID:14628,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 13:55:23,405,INFO,ProcID:14628,controller.py,get_models_information,30, get all models function starting
+2023-09-14 13:55:23,462,INFO,ProcID:14628,controller.py,get_models_information,43, get all models function end
+2023-09-14 13:55:23,503,INFO,ProcID:14628,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 13:55:23,830,INFO,ProcID:14628,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 13:55:23,831,INFO,ProcID:14628,controller.py,get_models_information,30, get all models function starting
+2023-09-14 13:55:23,836,INFO,ProcID:14628,controller.py,get_models_information,43, get all models function end
+2023-09-14 13:55:23,857,INFO,ProcID:14628,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 13:55:27,047,INFO,ProcID:14628,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 13:55:27,048,INFO,ProcID:14628,controller.py,evaluate_model,111, evaluate model function starting
+2023-09-14 13:55:27,056,INFO,ProcID:14628,controller.py,predict,56, predict starting
+2023-09-14 13:55:27,057,ERROR,ProcID:14628,models_info.py,evaluate_models,65, 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\pages\models_info.py", line 56, in evaluate_models
+    evaluate_result = models_ctrl.evaluate_model(model_ids, start_date, end_date)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\apis\models\controller.py", line 162, in evaluate_model
+    "predict_value": predict(model_record_info, ai_x_variables)[0]
+TypeError: 'NoneType' object is not subscriptable
+2023-09-14 13:55:27,058,INFO,ProcID:14628,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 13:56:05,238,INFO,ProcID:3800,run.py,<module>,85, Start Logging.
+2023-09-14 13:56:06,831,INFO,ProcID:3800,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 13:56:06,832,INFO,ProcID:3800,controller.py,get_models_information,30, get all models function starting
+2023-09-14 13:56:06,889,INFO,ProcID:3800,controller.py,get_models_information,43, get all models function end
+2023-09-14 13:56:06,930,INFO,ProcID:3800,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 13:56:07,160,INFO,ProcID:3800,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 13:56:07,160,INFO,ProcID:3800,controller.py,get_models_information,30, get all models function starting
+2023-09-14 13:56:07,161,INFO,ProcID:3800,controller.py,get_models_information,43, get all models function end
+2023-09-14 13:56:07,172,INFO,ProcID:3800,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 13:56:10,251,INFO,ProcID:3800,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 13:56:10,251,INFO,ProcID:3800,controller.py,evaluate_model,111, evaluate model function starting
+2023-09-14 13:56:10,260,INFO,ProcID:3800,controller.py,predict,56, predict starting
+2023-09-14 13:56:10,261,ERROR,ProcID:3800,models_info.py,evaluate_models,65, 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\pages\models_info.py", line 56, in evaluate_models
+    evaluate_result = models_ctrl.evaluate_model(model_ids, start_date, end_date)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\apis\models\controller.py", line 162, in evaluate_model
+    "predict_value": predict(model_record_info, ai_x_variables)[0]
+TypeError: 'NoneType' object is not subscriptable
+2023-09-14 13:56:10,262,INFO,ProcID:3800,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 13:56:53,293,INFO,ProcID:8936,run.py,<module>,85, Start Logging.
+2023-09-14 13:56:54,367,INFO,ProcID:8936,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 13:56:54,367,INFO,ProcID:8936,controller.py,get_models_information,30, get all models function starting
+2023-09-14 13:56:54,424,INFO,ProcID:8936,controller.py,get_models_information,43, get all models function end
+2023-09-14 13:56:54,468,INFO,ProcID:8936,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 13:56:54,747,INFO,ProcID:8936,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 13:56:54,747,INFO,ProcID:8936,controller.py,get_models_information,30, get all models function starting
+2023-09-14 13:56:54,750,INFO,ProcID:8936,controller.py,get_models_information,43, get all models function end
+2023-09-14 13:56:54,764,INFO,ProcID:8936,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 13:56:56,185,INFO,ProcID:8936,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 13:56:56,186,INFO,ProcID:8936,controller.py,evaluate_model,112, evaluate model function starting
+2023-09-14 13:56:56,193,INFO,ProcID:8936,controller.py,predict,56, predict starting
+2023-09-14 13:56:56,196,ERROR,ProcID:8936,models_info.py,evaluate_models,65, 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\pages\models_info.py", line 56, in evaluate_models
+    evaluate_result = models_ctrl.evaluate_model(model_ids, start_date, end_date)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\apis\models\controller.py", line 163, in evaluate_model
+    "predict_value": predict(model_record_info, ai_x_variables)[0]
+TypeError: 'NoneType' object is not subscriptable
+2023-09-14 13:56:56,197,INFO,ProcID:8936,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 13:59:28,710,INFO,ProcID:15900,run.py,<module>,85, Start Logging.
+2023-09-14 13:59:37,386,INFO,ProcID:24444,run.py,<module>,85, Start Logging.
+2023-09-14 13:59:45,095,INFO,ProcID:13216,run.py,<module>,85, Start Logging.
+2023-09-14 13:59:48,428,INFO,ProcID:12076,run.py,<module>,85, Start Logging.
+2023-09-14 13:59:56,927,INFO,ProcID:12176,run.py,<module>,85, Start Logging.
+2023-09-14 13:59:58,709,INFO,ProcID:23824,run.py,<module>,85, Start Logging.
+2023-09-14 13:59:58,887,INFO,ProcID:23824,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 13:59:58,887,INFO,ProcID:23824,controller.py,get_models_information,30, get all models function starting
+2023-09-14 13:59:58,961,INFO,ProcID:23824,controller.py,get_models_information,43, get all models function end
+2023-09-14 13:59:59,006,INFO,ProcID:23824,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 13:59:59,237,INFO,ProcID:23824,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 13:59:59,237,INFO,ProcID:23824,controller.py,get_models_information,30, get all models function starting
+2023-09-14 13:59:59,238,INFO,ProcID:23824,controller.py,get_models_information,43, get all models function end
+2023-09-14 13:59:59,249,INFO,ProcID:23824,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 14:00:01,525,INFO,ProcID:23824,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 14:00:01,525,INFO,ProcID:23824,controller.py,evaluate_model,113, evaluate model function starting
+2023-09-14 14:00:01,534,INFO,ProcID:23824,controller.py,predict,56, predict starting
+2023-09-14 14:00:01,538,ERROR,ProcID:23824,models_info.py,evaluate_models,65, 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\pages\models_info.py", line 56, in evaluate_models
+    evaluate_result = models_ctrl.evaluate_model(model_ids, start_date, end_date)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\apis\models\controller.py", line 164, in evaluate_model
+    "predict_value": predict(model_record_info, ai_x_variables)[0]
+TypeError: 'NoneType' object is not subscriptable
+2023-09-14 14:00:01,539,INFO,ProcID:23824,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 14:00:23,090,INFO,ProcID:14708,run.py,<module>,85, Start Logging.
+2023-09-14 14:00:25,204,INFO,ProcID:19044,run.py,<module>,85, Start Logging.
+2023-09-14 14:00:38,806,INFO,ProcID:11884,run.py,<module>,85, Start Logging.
+2023-09-14 14:00:40,554,INFO,ProcID:15652,run.py,<module>,85, Start Logging.
+2023-09-14 14:00:40,980,INFO,ProcID:15652,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 14:00:40,980,INFO,ProcID:15652,controller.py,get_models_information,30, get all models function starting
+2023-09-14 14:00:41,041,INFO,ProcID:15652,controller.py,get_models_information,43, get all models function end
+2023-09-14 14:00:41,080,INFO,ProcID:15652,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 14:00:41,307,INFO,ProcID:15652,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 14:00:41,308,INFO,ProcID:15652,controller.py,get_models_information,30, get all models function starting
+2023-09-14 14:00:41,309,INFO,ProcID:15652,controller.py,get_models_information,43, get all models function end
+2023-09-14 14:00:41,320,INFO,ProcID:15652,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 14:00:43,587,INFO,ProcID:15652,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 14:00:43,587,INFO,ProcID:15652,controller.py,evaluate_model,114, evaluate model function starting
+2023-09-14 14:00:43,595,INFO,ProcID:15652,controller.py,predict,56, predict starting
+2023-09-14 14:00:43,599,ERROR,ProcID:15652,models_info.py,evaluate_models,65, 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\pages\models_info.py", line 56, in evaluate_models
+    evaluate_result = models_ctrl.evaluate_model(model_ids, start_date, end_date)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\apis\models\controller.py", line 165, in evaluate_model
+    "predict_value": predict(model_record_info, ai_x_variables)[0]
+TypeError: 'NoneType' object is not subscriptable
+2023-09-14 14:00:43,600,INFO,ProcID:15652,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 14:02:30,241,INFO,ProcID:20604,run.py,<module>,85, Start Logging.
+2023-09-14 14:02:37,920,INFO,ProcID:14252,run.py,<module>,85, Start Logging.
+2023-09-14 14:03:50,466,INFO,ProcID:11632,run.py,<module>,85, Start Logging.
+2023-09-14 14:03:52,208,INFO,ProcID:10356,run.py,<module>,85, Start Logging.
+2023-09-14 14:03:52,305,INFO,ProcID:10356,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 14:03:52,305,INFO,ProcID:10356,controller.py,get_models_information,30, get all models function starting
+2023-09-14 14:03:52,362,INFO,ProcID:10356,controller.py,get_models_information,43, get all models function end
+2023-09-14 14:03:52,405,INFO,ProcID:10356,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 14:03:52,648,INFO,ProcID:10356,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 14:03:52,648,INFO,ProcID:10356,controller.py,get_models_information,30, get all models function starting
+2023-09-14 14:03:52,649,INFO,ProcID:10356,controller.py,get_models_information,43, get all models function end
+2023-09-14 14:03:52,660,INFO,ProcID:10356,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 14:03:53,782,INFO,ProcID:10356,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 14:03:53,782,INFO,ProcID:10356,controller.py,evaluate_model,118, evaluate model function starting
+2023-09-14 14:03:53,792,INFO,ProcID:10356,controller.py,predict,56, predict starting
+2023-09-14 14:03:53,794,ERROR,ProcID:10356,models_info.py,evaluate_models,65, 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\pages\models_info.py", line 56, in evaluate_models
+    evaluate_result = models_ctrl.evaluate_model(model_ids, start_date, end_date)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\apis\models\controller.py", line 169, in evaluate_model
+    "predict_value": predict(model_record_info, ai_x_variables)[0]
+TypeError: 'NoneType' object is not subscriptable
+2023-09-14 14:03:53,795,INFO,ProcID:10356,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 14:05:39,132,INFO,ProcID:23872,run.py,<module>,85, Start Logging.
+2023-09-14 14:05:40,887,INFO,ProcID:19608,run.py,<module>,85, Start Logging.
+2023-09-14 14:05:41,191,INFO,ProcID:19608,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 14:05:41,191,INFO,ProcID:19608,controller.py,get_models_information,30, get all models function starting
+2023-09-14 14:05:41,249,INFO,ProcID:19608,controller.py,get_models_information,43, get all models function end
+2023-09-14 14:05:41,289,INFO,ProcID:19608,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 14:05:41,701,INFO,ProcID:19608,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 14:05:41,701,INFO,ProcID:19608,controller.py,get_models_information,30, get all models function starting
+2023-09-14 14:05:41,704,INFO,ProcID:19608,controller.py,get_models_information,43, get all models function end
+2023-09-14 14:05:41,730,INFO,ProcID:19608,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 14:05:43,873,INFO,ProcID:19608,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 14:05:43,874,INFO,ProcID:19608,controller.py,evaluate_model,120, evaluate model function starting
+2023-09-14 14:05:43,882,INFO,ProcID:19608,controller.py,predict,56, predict starting
+2023-09-14 14:05:43,884,ERROR,ProcID:19608,models_info.py,evaluate_models,65, 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\pages\models_info.py", line 56, in evaluate_models
+    evaluate_result = models_ctrl.evaluate_model(model_ids, start_date, end_date)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\apis\models\controller.py", line 171, in evaluate_model
+    "predict_value": predict(model_record_info, ai_x_variables)[0]
+TypeError: 'NoneType' object is not subscriptable
+2023-09-14 14:05:43,884,INFO,ProcID:19608,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 14:06:14,604,INFO,ProcID:17768,run.py,<module>,85, Start Logging.
+2023-09-14 14:06:18,898,INFO,ProcID:21016,run.py,<module>,85, Start Logging.
+2023-09-14 14:07:03,643,INFO,ProcID:4204,run.py,<module>,85, Start Logging.
+2023-09-14 14:07:05,618,INFO,ProcID:15448,run.py,<module>,85, Start Logging.
+2023-09-14 14:07:05,862,INFO,ProcID:15448,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 14:07:05,862,INFO,ProcID:15448,controller.py,get_models_information,30, get all models function starting
+2023-09-14 14:07:06,035,INFO,ProcID:15448,controller.py,get_models_information,43, get all models function end
+2023-09-14 14:07:06,078,INFO,ProcID:15448,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 14:07:06,430,INFO,ProcID:15448,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 14:07:06,431,INFO,ProcID:15448,controller.py,get_models_information,30, get all models function starting
+2023-09-14 14:07:06,435,INFO,ProcID:15448,controller.py,get_models_information,43, get all models function end
+2023-09-14 14:07:06,455,INFO,ProcID:15448,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 14:07:08,954,INFO,ProcID:15448,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 14:07:08,954,INFO,ProcID:15448,controller.py,evaluate_model,122, evaluate model function starting
+2023-09-14 14:07:08,962,INFO,ProcID:15448,controller.py,predict,56, predict starting
+2023-09-14 14:07:08,964,ERROR,ProcID:15448,models_info.py,evaluate_models,65, 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\pages\models_info.py", line 56, in evaluate_models
+    evaluate_result = models_ctrl.evaluate_model(model_ids, start_date, end_date)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\apis\models\controller.py", line 173, in evaluate_model
+    "predict_value": predict(model_record_info, ai_x_variables)[0]
+TypeError: 'NoneType' object is not subscriptable
+2023-09-14 14:07:08,964,INFO,ProcID:15448,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 14:07:25,279,INFO,ProcID:23280,run.py,<module>,85, Start Logging.
+2023-09-14 14:07:54,729,INFO,ProcID:17668,run.py,<module>,85, Start Logging.
+2023-09-14 14:08:46,831,INFO,ProcID:10492,run.py,<module>,85, Start Logging.
+2023-09-14 14:08:48,614,INFO,ProcID:9728,run.py,<module>,85, Start Logging.
+2023-09-14 14:08:48,715,INFO,ProcID:9728,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 14:08:48,715,INFO,ProcID:9728,controller.py,get_models_information,30, get all models function starting
+2023-09-14 14:08:48,886,INFO,ProcID:9728,controller.py,get_models_information,43, get all models function end
+2023-09-14 14:08:48,928,INFO,ProcID:9728,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 14:08:49,153,INFO,ProcID:9728,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 14:08:49,153,INFO,ProcID:9728,controller.py,get_models_information,30, get all models function starting
+2023-09-14 14:08:49,154,INFO,ProcID:9728,controller.py,get_models_information,43, get all models function end
+2023-09-14 14:08:49,166,INFO,ProcID:9728,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 14:08:52,062,INFO,ProcID:9728,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 14:08:52,062,INFO,ProcID:9728,controller.py,evaluate_model,123, evaluate model function starting
+2023-09-14 14:08:52,072,INFO,ProcID:9728,controller.py,predict,56, predict starting
+2023-09-14 14:08:52,074,ERROR,ProcID:9728,models_info.py,evaluate_models,65, 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\pages\models_info.py", line 56, in evaluate_models
+    evaluate_result = models_ctrl.evaluate_model(model_ids, start_date, end_date)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\apis\models\controller.py", line 174, in evaluate_model
+    "predict_value": predict(model_record_info, ai_x_variables)[0]
+TypeError: 'NoneType' object is not subscriptable
+2023-09-14 14:08:52,075,INFO,ProcID:9728,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 14:09:29,920,INFO,ProcID:1560,run.py,<module>,85, Start Logging.
+2023-09-14 14:09:32,948,INFO,ProcID:4016,run.py,<module>,85, Start Logging.
+2023-09-14 14:09:39,447,INFO,ProcID:20156,run.py,<module>,85, Start Logging.
+2023-09-14 14:09:42,733,INFO,ProcID:12968,run.py,<module>,85, Start Logging.
+2023-09-14 14:09:45,917,INFO,ProcID:16256,run.py,<module>,85, Start Logging.
+2023-09-14 14:09:50,205,INFO,ProcID:1344,run.py,<module>,85, Start Logging.
+2023-09-14 14:09:52,792,INFO,ProcID:1344,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 14:09:52,792,INFO,ProcID:1344,controller.py,get_models_information,30, get all models function starting
+2023-09-14 14:09:52,850,INFO,ProcID:1344,controller.py,get_models_information,43, get all models function end
+2023-09-14 14:09:52,893,INFO,ProcID:1344,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 14:09:53,144,INFO,ProcID:1344,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 14:09:53,144,INFO,ProcID:1344,controller.py,get_models_information,30, get all models function starting
+2023-09-14 14:09:53,145,INFO,ProcID:1344,controller.py,get_models_information,43, get all models function end
+2023-09-14 14:09:53,159,INFO,ProcID:1344,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 14:09:54,762,INFO,ProcID:1344,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 14:09:54,762,INFO,ProcID:1344,controller.py,evaluate_model,111, evaluate model function starting
+2023-09-14 14:09:54,772,INFO,ProcID:1344,controller.py,predict,56, predict starting
+2023-09-14 14:09:54,773,ERROR,ProcID:1344,models_info.py,evaluate_models,65, 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\pages\models_info.py", line 56, in evaluate_models
+    evaluate_result = models_ctrl.evaluate_model(model_ids, start_date, end_date)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\apis\models\controller.py", line 162, in evaluate_model
+    "predict_value": predict(model_record_info, ai_x_variables)[0]
+TypeError: 'NoneType' object is not subscriptable
+2023-09-14 14:09:54,774,INFO,ProcID:1344,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 14:10:05,351,INFO,ProcID:18608,run.py,<module>,85, Start Logging.
+2023-09-14 14:11:06,766,INFO,ProcID:13448,run.py,<module>,85, Start Logging.
+2023-09-14 14:11:08,556,INFO,ProcID:21484,run.py,<module>,85, Start Logging.
+2023-09-14 14:11:08,914,INFO,ProcID:21484,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 14:11:08,914,INFO,ProcID:21484,controller.py,get_models_information,30, get all models function starting
+2023-09-14 14:11:09,073,INFO,ProcID:21484,controller.py,get_models_information,43, get all models function end
+2023-09-14 14:11:09,114,INFO,ProcID:21484,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 14:11:09,427,INFO,ProcID:21484,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 14:11:09,427,INFO,ProcID:21484,controller.py,get_models_information,30, get all models function starting
+2023-09-14 14:11:09,429,INFO,ProcID:21484,controller.py,get_models_information,43, get all models function end
+2023-09-14 14:11:09,445,INFO,ProcID:21484,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 14:11:11,105,INFO,ProcID:21484,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 14:11:11,105,INFO,ProcID:21484,controller.py,evaluate_model,112, evaluate model function starting
+2023-09-14 14:11:11,113,INFO,ProcID:21484,controller.py,predict,56, predict starting
+2023-09-14 14:11:11,117,ERROR,ProcID:21484,models_info.py,evaluate_models,65, 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\pages\models_info.py", line 56, in evaluate_models
+    evaluate_result = models_ctrl.evaluate_model(model_ids, start_date, end_date)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\apis\models\controller.py", line 163, in evaluate_model
+    "predict_value": predict(model_record_info, ai_x_variables)[0]
+TypeError: 'NoneType' object is not subscriptable
+2023-09-14 14:11:11,117,INFO,ProcID:21484,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 14:11:57,425,INFO,ProcID:24092,run.py,<module>,85, Start Logging.
+2023-09-14 14:12:03,797,INFO,ProcID:13796,run.py,<module>,85, Start Logging.
+2023-09-14 14:12:11,369,INFO,ProcID:9968,run.py,<module>,85, Start Logging.
+2023-09-14 14:12:14,482,INFO,ProcID:12880,run.py,<module>,85, Start Logging.
+2023-09-14 14:12:16,412,INFO,ProcID:12880,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 14:12:16,413,INFO,ProcID:12880,controller.py,get_models_information,30, get all models function starting
+2023-09-14 14:12:16,472,INFO,ProcID:12880,controller.py,get_models_information,43, get all models function end
+2023-09-14 14:12:16,516,INFO,ProcID:12880,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 14:12:16,848,INFO,ProcID:12880,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 14:12:16,848,INFO,ProcID:12880,controller.py,get_models_information,30, get all models function starting
+2023-09-14 14:12:16,850,INFO,ProcID:12880,controller.py,get_models_information,43, get all models function end
+2023-09-14 14:12:16,866,INFO,ProcID:12880,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 14:12:19,356,INFO,ProcID:12880,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 14:12:19,357,INFO,ProcID:12880,controller.py,evaluate_model,113, evaluate model function starting
+2023-09-14 14:12:19,365,INFO,ProcID:12880,controller.py,predict,56, predict starting
+2023-09-14 14:12:19,367,ERROR,ProcID:12880,models_info.py,evaluate_models,65, 'NoneType' object is not subscriptable
+Traceback (most recent call last):
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\pages\models_info.py", line 56, in evaluate_models
+    evaluate_result = models_ctrl.evaluate_model(model_ids, start_date, end_date)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\apis\models\controller.py", line 164, in evaluate_model
+    "predict_value": predict(model_record_info, ai_x_variables)[0]
+TypeError: 'NoneType' object is not subscriptable
+2023-09-14 14:12:19,367,INFO,ProcID:12880,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 14:13:33,945,INFO,ProcID:21652,run.py,<module>,85, Start Logging.
+2023-09-14 14:13:47,190,INFO,ProcID:17224,run.py,<module>,85, Start Logging.
+2023-09-14 14:15:24,769,INFO,ProcID:23032,run.py,<module>,85, Start Logging.
+2023-09-14 14:15:26,476,INFO,ProcID:19044,run.py,<module>,85, Start Logging.
+2023-09-14 14:15:34,636,INFO,ProcID:19044,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 14:15:34,636,INFO,ProcID:19044,controller.py,get_models_information,30, get all models function starting
+2023-09-14 14:15:34,697,INFO,ProcID:19044,controller.py,get_models_information,43, get all models function end
+2023-09-14 14:15:34,738,INFO,ProcID:19044,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 14:15:35,003,INFO,ProcID:19044,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 14:15:35,004,INFO,ProcID:19044,controller.py,get_models_information,30, get all models function starting
+2023-09-14 14:15:35,006,INFO,ProcID:19044,controller.py,get_models_information,43, get all models function end
+2023-09-14 14:15:35,018,INFO,ProcID:19044,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 14:15:36,377,INFO,ProcID:19044,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 14:15:36,378,INFO,ProcID:19044,controller.py,evaluate_model,106, evaluate model function starting
+2023-09-14 14:15:36,386,INFO,ProcID:19044,controller.py,predict,56, predict starting
+2023-09-14 14:15:36,404,INFO,ProcID:19044,controller.py,predict,96, predict end
+2023-09-14 14:15:36,405,INFO,ProcID:19044,controller.py,predict,56, predict starting
+2023-09-14 14:15:36,415,INFO,ProcID:19044,controller.py,predict,96, predict end
+2023-09-14 14:15:36,416,INFO,ProcID:19044,controller.py,predict,56, predict starting
+2023-09-14 14:15:36,426,INFO,ProcID:19044,controller.py,predict,96, predict end
+2023-09-14 14:15:36,426,INFO,ProcID:19044,controller.py,predict,56, predict starting
+2023-09-14 14:15:36,437,INFO,ProcID:19044,controller.py,predict,96, predict end
+2023-09-14 14:15:36,438,INFO,ProcID:19044,controller.py,predict,56, predict starting
+2023-09-14 14:15:36,447,INFO,ProcID:19044,controller.py,predict,96, predict end
+2023-09-14 14:15:36,448,INFO,ProcID:19044,controller.py,predict,56, predict starting
+2023-09-14 14:15:36,457,INFO,ProcID:19044,controller.py,predict,96, predict end
+2023-09-14 14:15:36,458,INFO,ProcID:19044,controller.py,predict,56, predict starting
+2023-09-14 14:15:36,468,INFO,ProcID:19044,controller.py,predict,96, predict end
+2023-09-14 14:15:36,469,INFO,ProcID:19044,controller.py,predict,56, predict starting
+2023-09-14 14:15:36,479,INFO,ProcID:19044,controller.py,predict,96, predict end
+2023-09-14 14:15:36,479,INFO,ProcID:19044,controller.py,predict,56, predict starting
+2023-09-14 14:15:36,489,INFO,ProcID:19044,controller.py,predict,96, predict end
+2023-09-14 14:15:36,489,INFO,ProcID:19044,controller.py,predict,56, predict starting
+2023-09-14 14:15:36,498,INFO,ProcID:19044,controller.py,predict,96, predict end
+2023-09-14 14:15:36,499,INFO,ProcID:19044,controller.py,predict,56, predict starting
+2023-09-14 14:15:36,509,INFO,ProcID:19044,controller.py,predict,96, predict end
+2023-09-14 14:15:36,510,INFO,ProcID:19044,controller.py,predict,56, predict starting
+2023-09-14 14:15:36,518,INFO,ProcID:19044,controller.py,predict,96, predict end
+2023-09-14 14:15:36,519,INFO,ProcID:19044,controller.py,predict,56, predict starting
+2023-09-14 14:15:36,528,INFO,ProcID:19044,controller.py,predict,96, predict end
+2023-09-14 14:15:36,528,INFO,ProcID:19044,controller.py,predict,56, predict starting
+2023-09-14 14:15:36,538,INFO,ProcID:19044,controller.py,predict,96, predict end
+2023-09-14 14:15:36,539,INFO,ProcID:19044,controller.py,predict,56, predict starting
+2023-09-14 14:15:36,549,INFO,ProcID:19044,controller.py,predict,96, predict end
+2023-09-14 14:15:36,549,INFO,ProcID:19044,controller.py,predict,56, predict starting
+2023-09-14 14:15:36,558,INFO,ProcID:19044,controller.py,predict,96, predict end
+2023-09-14 14:15:36,559,INFO,ProcID:19044,controller.py,predict,56, predict starting
+2023-09-14 14:15:36,569,INFO,ProcID:19044,controller.py,predict,96, predict end
+2023-09-14 14:15:36,570,INFO,ProcID:19044,controller.py,predict,56, predict starting
+2023-09-14 14:15:36,578,INFO,ProcID:19044,controller.py,predict,96, predict end
+2023-09-14 14:15:36,580,INFO,ProcID:19044,controller.py,evaluate_model,169, evaluate model function end
+2023-09-14 14:15:36,580,INFO,ProcID:19044,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 14:17:39,092,INFO,ProcID:10224,run.py,<module>,85, Start Logging.
+2023-09-14 14:18:45,615,INFO,ProcID:19336,run.py,<module>,85, Start Logging.
+2023-09-14 14:18:47,197,INFO,ProcID:8416,run.py,<module>,85, Start Logging.
+2023-09-14 14:19:10,081,INFO,ProcID:2392,run.py,<module>,85, Start Logging.
+2023-09-14 14:19:16,880,INFO,ProcID:19660,run.py,<module>,85, Start Logging.
+2023-09-14 14:20:22,535,INFO,ProcID:17552,run.py,<module>,85, Start Logging.
+2023-09-14 14:20:26,788,INFO,ProcID:22692,run.py,<module>,85, Start Logging.
+2023-09-14 14:20:33,041,INFO,ProcID:9876,run.py,<module>,85, Start Logging.
+2023-09-14 14:20:47,472,INFO,ProcID:22820,run.py,<module>,85, Start Logging.
+2023-09-14 14:20:49,622,INFO,ProcID:1140,run.py,<module>,85, Start Logging.
+2023-09-14 14:20:52,922,INFO,ProcID:20376,run.py,<module>,85, Start Logging.
+2023-09-14 14:20:54,974,INFO,ProcID:17172,run.py,<module>,85, Start Logging.
+2023-09-14 14:21:03,633,INFO,ProcID:21760,run.py,<module>,85, Start Logging.
+2023-09-14 14:21:06,754,INFO,ProcID:25336,run.py,<module>,85, Start Logging.
+2023-09-14 14:21:28,643,INFO,ProcID:20260,run.py,<module>,85, Start Logging.
+2023-09-14 14:21:33,903,INFO,ProcID:3840,run.py,<module>,85, Start Logging.
+2023-09-14 14:21:39,115,INFO,ProcID:18012,run.py,<module>,85, Start Logging.
+2023-09-14 14:21:45,500,INFO,ProcID:25576,run.py,<module>,85, Start Logging.
+2023-09-14 14:21:48,652,INFO,ProcID:18568,run.py,<module>,85, Start Logging.
+2023-09-14 14:21:52,061,INFO,ProcID:23756,run.py,<module>,85, Start Logging.
+2023-09-14 14:21:56,325,INFO,ProcID:17960,run.py,<module>,85, Start Logging.
+2023-09-14 14:21:59,558,INFO,ProcID:20116,run.py,<module>,85, Start Logging.
+2023-09-14 14:22:02,668,INFO,ProcID:11852,run.py,<module>,85, Start Logging.
+2023-09-14 14:22:06,876,INFO,ProcID:9436,run.py,<module>,85, Start Logging.
+2023-09-14 14:22:10,154,INFO,ProcID:9472,run.py,<module>,85, Start Logging.
+2023-09-14 14:22:16,598,INFO,ProcID:21744,run.py,<module>,85, Start Logging.
+2023-09-14 14:22:19,648,INFO,ProcID:23328,run.py,<module>,85, Start Logging.
+2023-09-14 14:22:37,941,INFO,ProcID:5840,run.py,<module>,85, Start Logging.
+2023-09-14 14:23:06,070,INFO,ProcID:5124,run.py,<module>,85, Start Logging.
+2023-09-14 14:23:22,871,INFO,ProcID:18200,run.py,<module>,85, Start Logging.
+2023-09-14 14:23:24,656,INFO,ProcID:5340,run.py,<module>,85, Start Logging.
+2023-09-14 14:23:24,924,INFO,ProcID:5340,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 14:23:24,924,INFO,ProcID:5340,controller.py,get_models_information,30, get all models function starting
+2023-09-14 14:23:24,982,INFO,ProcID:5340,controller.py,get_models_information,43, get all models function end
+2023-09-14 14:23:25,027,INFO,ProcID:5340,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 14:23:25,347,INFO,ProcID:5340,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 14:23:25,347,INFO,ProcID:5340,controller.py,get_models_information,30, get all models function starting
+2023-09-14 14:23:25,348,INFO,ProcID:5340,controller.py,get_models_information,43, get all models function end
+2023-09-14 14:23:25,361,INFO,ProcID:5340,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 14:23:27,496,INFO,ProcID:5340,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 14:23:27,497,INFO,ProcID:5340,controller.py,evaluate_model,106, evaluate model function starting
+2023-09-14 14:23:27,506,INFO,ProcID:5340,controller.py,predict,56, predict starting
+2023-09-14 14:23:27,517,INFO,ProcID:5340,controller.py,predict,96, predict end
+2023-09-14 14:23:27,517,INFO,ProcID:5340,controller.py,predict,56, predict starting
+2023-09-14 14:23:27,525,INFO,ProcID:5340,controller.py,predict,96, predict end
+2023-09-14 14:23:27,526,INFO,ProcID:5340,controller.py,predict,56, predict starting
+2023-09-14 14:23:27,534,INFO,ProcID:5340,controller.py,predict,96, predict end
+2023-09-14 14:23:27,535,INFO,ProcID:5340,controller.py,predict,56, predict starting
+2023-09-14 14:23:27,543,INFO,ProcID:5340,controller.py,predict,96, predict end
+2023-09-14 14:23:27,544,INFO,ProcID:5340,controller.py,predict,56, predict starting
+2023-09-14 14:23:27,552,INFO,ProcID:5340,controller.py,predict,96, predict end
+2023-09-14 14:23:27,552,INFO,ProcID:5340,controller.py,predict,56, predict starting
+2023-09-14 14:23:27,560,INFO,ProcID:5340,controller.py,predict,96, predict end
+2023-09-14 14:23:27,561,INFO,ProcID:5340,controller.py,predict,56, predict starting
+2023-09-14 14:23:27,570,INFO,ProcID:5340,controller.py,predict,96, predict end
+2023-09-14 14:23:27,570,INFO,ProcID:5340,controller.py,predict,56, predict starting
+2023-09-14 14:23:27,579,INFO,ProcID:5340,controller.py,predict,96, predict end
+2023-09-14 14:23:27,579,INFO,ProcID:5340,controller.py,predict,56, predict starting
+2023-09-14 14:23:27,611,INFO,ProcID:5340,controller.py,predict,96, predict end
+2023-09-14 14:23:27,611,INFO,ProcID:5340,controller.py,predict,56, predict starting
+2023-09-14 14:23:27,620,INFO,ProcID:5340,controller.py,predict,96, predict end
+2023-09-14 14:23:27,620,INFO,ProcID:5340,controller.py,predict,56, predict starting
+2023-09-14 14:23:27,629,INFO,ProcID:5340,controller.py,predict,96, predict end
+2023-09-14 14:23:27,629,INFO,ProcID:5340,controller.py,predict,56, predict starting
+2023-09-14 14:23:27,638,INFO,ProcID:5340,controller.py,predict,96, predict end
+2023-09-14 14:23:27,639,INFO,ProcID:5340,controller.py,predict,56, predict starting
+2023-09-14 14:23:27,648,INFO,ProcID:5340,controller.py,predict,96, predict end
+2023-09-14 14:23:27,649,INFO,ProcID:5340,controller.py,predict,56, predict starting
+2023-09-14 14:23:27,657,INFO,ProcID:5340,controller.py,predict,96, predict end
+2023-09-14 14:23:27,657,INFO,ProcID:5340,controller.py,predict,56, predict starting
+2023-09-14 14:23:27,666,INFO,ProcID:5340,controller.py,predict,96, predict end
+2023-09-14 14:23:27,666,INFO,ProcID:5340,controller.py,predict,56, predict starting
+2023-09-14 14:23:27,676,INFO,ProcID:5340,controller.py,predict,96, predict end
+2023-09-14 14:23:27,677,INFO,ProcID:5340,controller.py,predict,56, predict starting
+2023-09-14 14:23:27,685,INFO,ProcID:5340,controller.py,predict,96, predict end
+2023-09-14 14:23:27,686,INFO,ProcID:5340,controller.py,predict,56, predict starting
+2023-09-14 14:23:27,694,INFO,ProcID:5340,controller.py,predict,96, predict end
+2023-09-14 14:23:27,694,INFO,ProcID:5340,controller.py,evaluate_model,174, evaluate model function end
+2023-09-14 14:23:27,695,INFO,ProcID:5340,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 14:24:16,917,INFO,ProcID:25072,run.py,<module>,85, Start Logging.
+2023-09-14 14:24:18,176,INFO,ProcID:25072,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 14:24:18,176,INFO,ProcID:25072,controller.py,get_models_information,30, get all models function starting
+2023-09-14 14:24:18,238,INFO,ProcID:25072,controller.py,get_models_information,43, get all models function end
+2023-09-14 14:24:18,280,INFO,ProcID:25072,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 14:24:18,556,INFO,ProcID:25072,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 14:24:18,557,INFO,ProcID:25072,controller.py,get_models_information,30, get all models function starting
+2023-09-14 14:24:18,558,INFO,ProcID:25072,controller.py,get_models_information,43, get all models function end
+2023-09-14 14:24:18,573,INFO,ProcID:25072,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 14:24:19,963,INFO,ProcID:25072,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 14:24:19,963,INFO,ProcID:25072,controller.py,evaluate_model,106, evaluate model function starting
+2023-09-14 14:24:19,972,INFO,ProcID:25072,controller.py,predict,56, predict starting
+2023-09-14 14:24:19,983,INFO,ProcID:25072,controller.py,predict,96, predict end
+2023-09-14 14:24:19,984,ERROR,ProcID:25072,models_info.py,evaluate_models,65, can only concatenate str (not "int") to str
+Traceback (most recent call last):
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\pages\models_info.py", line 56, in evaluate_models
+    evaluate_result = models_ctrl.evaluate_model(model_ids, start_date, end_date)
+  File "D:\Work\HACHIX\alumi\Tokai_Alumi\src\BuyerWeb\apis\models\controller.py", line 161, in evaluate_model
+    eval_info["evaluate_date"] = registration_date + "_" + index
+TypeError: can only concatenate str (not "int") to str
+2023-09-14 14:24:19,985,INFO,ProcID:25072,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 14:24:33,162,INFO,ProcID:17780,run.py,<module>,85, Start Logging.
+2023-09-14 14:24:38,569,INFO,ProcID:22548,run.py,<module>,85, Start Logging.
+2023-09-14 14:24:40,985,INFO,ProcID:22548,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 14:24:40,985,INFO,ProcID:22548,controller.py,get_models_information,30, get all models function starting
+2023-09-14 14:24:41,143,INFO,ProcID:22548,controller.py,get_models_information,43, get all models function end
+2023-09-14 14:24:41,187,INFO,ProcID:22548,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 14:24:41,424,INFO,ProcID:22548,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 14:24:41,424,INFO,ProcID:22548,controller.py,get_models_information,30, get all models function starting
+2023-09-14 14:24:41,425,INFO,ProcID:22548,controller.py,get_models_information,43, get all models function end
+2023-09-14 14:24:41,437,INFO,ProcID:22548,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 14:24:42,939,INFO,ProcID:22548,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 14:24:42,939,INFO,ProcID:22548,controller.py,evaluate_model,106, evaluate model function starting
+2023-09-14 14:24:42,947,INFO,ProcID:22548,controller.py,predict,56, predict starting
+2023-09-14 14:24:42,957,INFO,ProcID:22548,controller.py,predict,96, predict end
+2023-09-14 14:24:42,958,INFO,ProcID:22548,controller.py,predict,56, predict starting
+2023-09-14 14:24:42,968,INFO,ProcID:22548,controller.py,predict,96, predict end
+2023-09-14 14:24:42,969,INFO,ProcID:22548,controller.py,predict,56, predict starting
+2023-09-14 14:24:42,977,INFO,ProcID:22548,controller.py,predict,96, predict end
+2023-09-14 14:24:42,978,INFO,ProcID:22548,controller.py,predict,56, predict starting
+2023-09-14 14:24:42,986,INFO,ProcID:22548,controller.py,predict,96, predict end
+2023-09-14 14:24:42,987,INFO,ProcID:22548,controller.py,predict,56, predict starting
+2023-09-14 14:24:42,996,INFO,ProcID:22548,controller.py,predict,96, predict end
+2023-09-14 14:24:42,997,INFO,ProcID:22548,controller.py,predict,56, predict starting
+2023-09-14 14:24:43,006,INFO,ProcID:22548,controller.py,predict,96, predict end
+2023-09-14 14:24:43,007,INFO,ProcID:22548,controller.py,predict,56, predict starting
+2023-09-14 14:24:43,015,INFO,ProcID:22548,controller.py,predict,96, predict end
+2023-09-14 14:24:43,016,INFO,ProcID:22548,controller.py,predict,56, predict starting
+2023-09-14 14:24:43,023,INFO,ProcID:22548,controller.py,predict,96, predict end
+2023-09-14 14:24:43,024,INFO,ProcID:22548,controller.py,predict,56, predict starting
+2023-09-14 14:24:43,032,INFO,ProcID:22548,controller.py,predict,96, predict end
+2023-09-14 14:24:43,032,INFO,ProcID:22548,controller.py,predict,56, predict starting
+2023-09-14 14:24:43,042,INFO,ProcID:22548,controller.py,predict,96, predict end
+2023-09-14 14:24:43,042,INFO,ProcID:22548,controller.py,predict,56, predict starting
+2023-09-14 14:24:43,052,INFO,ProcID:22548,controller.py,predict,96, predict end
+2023-09-14 14:24:43,053,INFO,ProcID:22548,controller.py,predict,56, predict starting
+2023-09-14 14:24:43,062,INFO,ProcID:22548,controller.py,predict,96, predict end
+2023-09-14 14:24:43,063,INFO,ProcID:22548,controller.py,predict,56, predict starting
+2023-09-14 14:24:43,072,INFO,ProcID:22548,controller.py,predict,96, predict end
+2023-09-14 14:24:43,073,INFO,ProcID:22548,controller.py,predict,56, predict starting
+2023-09-14 14:24:43,083,INFO,ProcID:22548,controller.py,predict,96, predict end
+2023-09-14 14:24:43,084,INFO,ProcID:22548,controller.py,predict,56, predict starting
+2023-09-14 14:24:43,093,INFO,ProcID:22548,controller.py,predict,96, predict end
+2023-09-14 14:24:43,093,INFO,ProcID:22548,controller.py,predict,56, predict starting
+2023-09-14 14:24:43,104,INFO,ProcID:22548,controller.py,predict,96, predict end
+2023-09-14 14:24:43,105,INFO,ProcID:22548,controller.py,predict,56, predict starting
+2023-09-14 14:24:43,115,INFO,ProcID:22548,controller.py,predict,96, predict end
+2023-09-14 14:24:43,115,INFO,ProcID:22548,controller.py,predict,56, predict starting
+2023-09-14 14:24:43,125,INFO,ProcID:22548,controller.py,predict,96, predict end
+2023-09-14 14:24:43,127,INFO,ProcID:22548,controller.py,evaluate_model,174, evaluate model function end
+2023-09-14 14:24:43,128,INFO,ProcID:22548,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 14:25:23,057,INFO,ProcID:22932,run.py,<module>,85, Start Logging.
+2023-09-14 14:25:27,405,INFO,ProcID:9840,run.py,<module>,85, Start Logging.
+2023-09-14 14:25:38,414,INFO,ProcID:9840,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 14:25:38,414,INFO,ProcID:9840,controller.py,get_models_information,30, get all models function starting
+2023-09-14 14:25:38,473,INFO,ProcID:9840,controller.py,get_models_information,43, get all models function end
+2023-09-14 14:25:38,517,INFO,ProcID:9840,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 14:25:38,788,INFO,ProcID:9840,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 14:25:38,788,INFO,ProcID:9840,controller.py,get_models_information,30, get all models function starting
+2023-09-14 14:25:38,789,INFO,ProcID:9840,controller.py,get_models_information,43, get all models function end
+2023-09-14 14:25:38,801,INFO,ProcID:9840,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 14:25:40,511,INFO,ProcID:9840,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 14:25:40,511,INFO,ProcID:9840,controller.py,evaluate_model,106, evaluate model function starting
+2023-09-14 14:25:40,520,INFO,ProcID:9840,controller.py,predict,56, predict starting
+2023-09-14 14:25:40,530,INFO,ProcID:9840,controller.py,predict,96, predict end
+2023-09-14 14:25:40,530,INFO,ProcID:9840,controller.py,predict,56, predict starting
+2023-09-14 14:25:40,549,INFO,ProcID:9840,controller.py,predict,96, predict end
+2023-09-14 14:25:40,550,INFO,ProcID:9840,controller.py,predict,56, predict starting
+2023-09-14 14:25:40,558,INFO,ProcID:9840,controller.py,predict,96, predict end
+2023-09-14 14:25:40,559,INFO,ProcID:9840,controller.py,predict,56, predict starting
+2023-09-14 14:25:40,569,INFO,ProcID:9840,controller.py,predict,96, predict end
+2023-09-14 14:25:40,570,INFO,ProcID:9840,controller.py,predict,56, predict starting
+2023-09-14 14:25:40,578,INFO,ProcID:9840,controller.py,predict,96, predict end
+2023-09-14 14:25:40,579,INFO,ProcID:9840,controller.py,predict,56, predict starting
+2023-09-14 14:25:40,586,INFO,ProcID:9840,controller.py,predict,96, predict end
+2023-09-14 14:25:40,587,INFO,ProcID:9840,controller.py,predict,56, predict starting
+2023-09-14 14:25:40,595,INFO,ProcID:9840,controller.py,predict,96, predict end
+2023-09-14 14:25:40,595,INFO,ProcID:9840,controller.py,predict,56, predict starting
+2023-09-14 14:25:40,603,INFO,ProcID:9840,controller.py,predict,96, predict end
+2023-09-14 14:25:40,604,INFO,ProcID:9840,controller.py,predict,56, predict starting
+2023-09-14 14:25:40,612,INFO,ProcID:9840,controller.py,predict,96, predict end
+2023-09-14 14:25:40,613,INFO,ProcID:9840,controller.py,predict,56, predict starting
+2023-09-14 14:25:40,621,INFO,ProcID:9840,controller.py,predict,96, predict end
+2023-09-14 14:25:40,621,INFO,ProcID:9840,controller.py,predict,56, predict starting
+2023-09-14 14:25:40,629,INFO,ProcID:9840,controller.py,predict,96, predict end
+2023-09-14 14:25:40,629,INFO,ProcID:9840,controller.py,predict,56, predict starting
+2023-09-14 14:25:40,638,INFO,ProcID:9840,controller.py,predict,96, predict end
+2023-09-14 14:25:40,639,INFO,ProcID:9840,controller.py,predict,56, predict starting
+2023-09-14 14:25:40,647,INFO,ProcID:9840,controller.py,predict,96, predict end
+2023-09-14 14:25:40,648,INFO,ProcID:9840,controller.py,predict,56, predict starting
+2023-09-14 14:25:40,656,INFO,ProcID:9840,controller.py,predict,96, predict end
+2023-09-14 14:25:40,657,INFO,ProcID:9840,controller.py,predict,56, predict starting
+2023-09-14 14:25:40,665,INFO,ProcID:9840,controller.py,predict,96, predict end
+2023-09-14 14:25:40,665,INFO,ProcID:9840,controller.py,predict,56, predict starting
+2023-09-14 14:25:40,691,INFO,ProcID:9840,controller.py,predict,96, predict end
+2023-09-14 14:25:40,692,INFO,ProcID:9840,controller.py,predict,56, predict starting
+2023-09-14 14:25:40,702,INFO,ProcID:9840,controller.py,predict,96, predict end
+2023-09-14 14:25:40,703,INFO,ProcID:9840,controller.py,predict,56, predict starting
+2023-09-14 14:25:40,713,INFO,ProcID:9840,controller.py,predict,96, predict end
+2023-09-14 14:25:40,714,INFO,ProcID:9840,controller.py,evaluate_model,175, evaluate model function end
+2023-09-14 14:25:40,715,INFO,ProcID:9840,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 14:28:38,744,INFO,ProcID:11200,run.py,<module>,85, Start Logging.
+2023-09-14 14:28:43,986,INFO,ProcID:1524,run.py,<module>,85, Start Logging.
+2023-09-14 14:28:55,830,INFO,ProcID:3232,run.py,<module>,85, Start Logging.
+2023-09-14 14:29:17,741,INFO,ProcID:3232,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 14:29:17,741,INFO,ProcID:3232,controller.py,get_models_information,30, get all models function starting
+2023-09-14 14:29:17,798,INFO,ProcID:3232,controller.py,get_models_information,43, get all models function end
+2023-09-14 14:29:17,843,INFO,ProcID:3232,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 14:29:18,174,INFO,ProcID:3232,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 14:29:18,174,INFO,ProcID:3232,controller.py,get_models_information,30, get all models function starting
+2023-09-14 14:29:18,175,INFO,ProcID:3232,controller.py,get_models_information,43, get all models function end
+2023-09-14 14:29:18,186,INFO,ProcID:3232,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 14:29:19,735,INFO,ProcID:3232,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 14:29:19,735,INFO,ProcID:3232,controller.py,evaluate_model,106, evaluate model function starting
+2023-09-14 14:29:19,745,INFO,ProcID:3232,controller.py,predict,56, predict starting
+2023-09-14 14:29:19,755,INFO,ProcID:3232,controller.py,predict,96, predict end
+2023-09-14 14:29:19,756,INFO,ProcID:3232,controller.py,predict,56, predict starting
+2023-09-14 14:29:19,766,INFO,ProcID:3232,controller.py,predict,96, predict end
+2023-09-14 14:29:19,767,INFO,ProcID:3232,controller.py,predict,56, predict starting
+2023-09-14 14:29:19,778,INFO,ProcID:3232,controller.py,predict,96, predict end
+2023-09-14 14:29:19,779,INFO,ProcID:3232,controller.py,predict,56, predict starting
+2023-09-14 14:29:19,787,INFO,ProcID:3232,controller.py,predict,96, predict end
+2023-09-14 14:29:19,788,INFO,ProcID:3232,controller.py,predict,56, predict starting
+2023-09-14 14:29:19,797,INFO,ProcID:3232,controller.py,predict,96, predict end
+2023-09-14 14:29:19,798,INFO,ProcID:3232,controller.py,predict,56, predict starting
+2023-09-14 14:29:19,807,INFO,ProcID:3232,controller.py,predict,96, predict end
+2023-09-14 14:29:19,808,INFO,ProcID:3232,controller.py,predict,56, predict starting
+2023-09-14 14:29:19,816,INFO,ProcID:3232,controller.py,predict,96, predict end
+2023-09-14 14:29:19,817,INFO,ProcID:3232,controller.py,predict,56, predict starting
+2023-09-14 14:29:19,825,INFO,ProcID:3232,controller.py,predict,96, predict end
+2023-09-14 14:29:19,826,INFO,ProcID:3232,controller.py,predict,56, predict starting
+2023-09-14 14:29:19,834,INFO,ProcID:3232,controller.py,predict,96, predict end
+2023-09-14 14:29:19,835,INFO,ProcID:3232,controller.py,predict,56, predict starting
+2023-09-14 14:29:19,843,INFO,ProcID:3232,controller.py,predict,96, predict end
+2023-09-14 14:29:19,844,INFO,ProcID:3232,controller.py,predict,56, predict starting
+2023-09-14 14:29:19,852,INFO,ProcID:3232,controller.py,predict,96, predict end
+2023-09-14 14:29:19,852,INFO,ProcID:3232,controller.py,predict,56, predict starting
+2023-09-14 14:29:19,862,INFO,ProcID:3232,controller.py,predict,96, predict end
+2023-09-14 14:29:19,862,INFO,ProcID:3232,controller.py,predict,56, predict starting
+2023-09-14 14:29:19,872,INFO,ProcID:3232,controller.py,predict,96, predict end
+2023-09-14 14:29:19,873,INFO,ProcID:3232,controller.py,predict,56, predict starting
+2023-09-14 14:29:19,883,INFO,ProcID:3232,controller.py,predict,96, predict end
+2023-09-14 14:29:19,884,INFO,ProcID:3232,controller.py,predict,56, predict starting
+2023-09-14 14:29:19,893,INFO,ProcID:3232,controller.py,predict,96, predict end
+2023-09-14 14:29:19,894,INFO,ProcID:3232,controller.py,predict,56, predict starting
+2023-09-14 14:29:19,904,INFO,ProcID:3232,controller.py,predict,96, predict end
+2023-09-14 14:29:19,905,INFO,ProcID:3232,controller.py,predict,56, predict starting
+2023-09-14 14:29:19,915,INFO,ProcID:3232,controller.py,predict,96, predict end
+2023-09-14 14:29:19,916,INFO,ProcID:3232,controller.py,predict,56, predict starting
+2023-09-14 14:29:19,926,INFO,ProcID:3232,controller.py,predict,96, predict end
+2023-09-14 14:29:19,928,INFO,ProcID:3232,controller.py,evaluate_model,172, evaluate model function end
+2023-09-14 14:29:19,928,INFO,ProcID:3232,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 14:31:09,786,INFO,ProcID:11564,run.py,<module>,85, Start Logging.
+2023-09-14 14:31:18,447,INFO,ProcID:21264,run.py,<module>,85, Start Logging.
+2023-09-14 14:31:22,539,INFO,ProcID:19468,run.py,<module>,85, Start Logging.
+2023-09-14 14:31:26,339,INFO,ProcID:19468,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 14:31:26,340,INFO,ProcID:19468,controller.py,get_models_information,30, get all models function starting
+2023-09-14 14:31:26,407,INFO,ProcID:19468,controller.py,get_models_information,43, get all models function end
+2023-09-14 14:31:26,451,INFO,ProcID:19468,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 14:31:26,720,INFO,ProcID:19468,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 14:31:26,720,INFO,ProcID:19468,controller.py,get_models_information,30, get all models function starting
+2023-09-14 14:31:26,722,INFO,ProcID:19468,controller.py,get_models_information,43, get all models function end
+2023-09-14 14:31:26,733,INFO,ProcID:19468,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 14:31:28,230,INFO,ProcID:19468,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 14:31:28,230,INFO,ProcID:19468,controller.py,evaluate_model,106, evaluate model function starting
+2023-09-14 14:31:28,239,INFO,ProcID:19468,controller.py,predict,56, predict starting
+2023-09-14 14:31:28,249,INFO,ProcID:19468,controller.py,predict,96, predict end
+2023-09-14 14:31:28,250,INFO,ProcID:19468,controller.py,predict,56, predict starting
+2023-09-14 14:31:28,259,INFO,ProcID:19468,controller.py,predict,96, predict end
+2023-09-14 14:31:28,259,INFO,ProcID:19468,controller.py,predict,56, predict starting
+2023-09-14 14:31:28,268,INFO,ProcID:19468,controller.py,predict,96, predict end
+2023-09-14 14:31:28,269,INFO,ProcID:19468,controller.py,predict,56, predict starting
+2023-09-14 14:31:28,277,INFO,ProcID:19468,controller.py,predict,96, predict end
+2023-09-14 14:31:28,278,INFO,ProcID:19468,controller.py,predict,56, predict starting
+2023-09-14 14:31:28,286,INFO,ProcID:19468,controller.py,predict,96, predict end
+2023-09-14 14:31:28,287,INFO,ProcID:19468,controller.py,predict,56, predict starting
+2023-09-14 14:31:28,294,INFO,ProcID:19468,controller.py,predict,96, predict end
+2023-09-14 14:31:28,295,INFO,ProcID:19468,controller.py,predict,56, predict starting
+2023-09-14 14:31:28,304,INFO,ProcID:19468,controller.py,predict,96, predict end
+2023-09-14 14:31:28,305,INFO,ProcID:19468,controller.py,predict,56, predict starting
+2023-09-14 14:31:28,313,INFO,ProcID:19468,controller.py,predict,96, predict end
+2023-09-14 14:31:28,314,INFO,ProcID:19468,controller.py,predict,56, predict starting
+2023-09-14 14:31:28,321,INFO,ProcID:19468,controller.py,predict,96, predict end
+2023-09-14 14:31:28,322,INFO,ProcID:19468,controller.py,predict,56, predict starting
+2023-09-14 14:31:28,330,INFO,ProcID:19468,controller.py,predict,96, predict end
+2023-09-14 14:31:28,330,INFO,ProcID:19468,controller.py,predict,56, predict starting
+2023-09-14 14:31:28,340,INFO,ProcID:19468,controller.py,predict,96, predict end
+2023-09-14 14:31:28,341,INFO,ProcID:19468,controller.py,predict,56, predict starting
+2023-09-14 14:31:28,351,INFO,ProcID:19468,controller.py,predict,96, predict end
+2023-09-14 14:31:28,352,INFO,ProcID:19468,controller.py,predict,56, predict starting
+2023-09-14 14:31:28,360,INFO,ProcID:19468,controller.py,predict,96, predict end
+2023-09-14 14:31:28,361,INFO,ProcID:19468,controller.py,predict,56, predict starting
+2023-09-14 14:31:28,370,INFO,ProcID:19468,controller.py,predict,96, predict end
+2023-09-14 14:31:28,371,INFO,ProcID:19468,controller.py,predict,56, predict starting
+2023-09-14 14:31:28,380,INFO,ProcID:19468,controller.py,predict,96, predict end
+2023-09-14 14:31:28,380,INFO,ProcID:19468,controller.py,predict,56, predict starting
+2023-09-14 14:31:28,389,INFO,ProcID:19468,controller.py,predict,96, predict end
+2023-09-14 14:31:28,390,INFO,ProcID:19468,controller.py,predict,56, predict starting
+2023-09-14 14:31:28,399,INFO,ProcID:19468,controller.py,predict,96, predict end
+2023-09-14 14:31:28,399,INFO,ProcID:19468,controller.py,predict,56, predict starting
+2023-09-14 14:31:28,410,INFO,ProcID:19468,controller.py,predict,96, predict end
+2023-09-14 14:31:28,411,INFO,ProcID:19468,controller.py,evaluate_model,169, evaluate model function end
+2023-09-14 14:31:28,412,INFO,ProcID:19468,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 14:35:02,977,INFO,ProcID:19468,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 14:35:02,977,INFO,ProcID:19468,controller.py,get_models_information,30, get all models function starting
+2023-09-14 14:35:02,978,INFO,ProcID:19468,controller.py,get_models_information,43, get all models function end
+2023-09-14 14:35:02,988,INFO,ProcID:19468,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 14:35:03,105,INFO,ProcID:19468,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 14:35:03,106,INFO,ProcID:19468,controller.py,get_models_information,30, get all models function starting
+2023-09-14 14:35:03,108,INFO,ProcID:19468,controller.py,get_models_information,43, get all models function end
+2023-09-14 14:35:03,119,INFO,ProcID:19468,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 14:35:04,840,INFO,ProcID:19468,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 14:35:04,840,INFO,ProcID:19468,controller.py,evaluate_model,106, evaluate model function starting
+2023-09-14 14:35:04,843,INFO,ProcID:19468,controller.py,predict,56, predict starting
+2023-09-14 14:35:04,853,INFO,ProcID:19468,controller.py,predict,96, predict end
+2023-09-14 14:35:04,853,INFO,ProcID:19468,controller.py,predict,56, predict starting
+2023-09-14 14:35:04,863,INFO,ProcID:19468,controller.py,predict,96, predict end
+2023-09-14 14:35:04,863,INFO,ProcID:19468,controller.py,predict,56, predict starting
+2023-09-14 14:35:04,873,INFO,ProcID:19468,controller.py,predict,96, predict end
+2023-09-14 14:35:04,873,INFO,ProcID:19468,controller.py,predict,56, predict starting
+2023-09-14 14:35:04,883,INFO,ProcID:19468,controller.py,predict,96, predict end
+2023-09-14 14:35:04,883,INFO,ProcID:19468,controller.py,predict,56, predict starting
+2023-09-14 14:35:04,893,INFO,ProcID:19468,controller.py,predict,96, predict end
+2023-09-14 14:35:04,893,INFO,ProcID:19468,controller.py,predict,56, predict starting
+2023-09-14 14:35:04,903,INFO,ProcID:19468,controller.py,predict,96, predict end
+2023-09-14 14:35:04,904,INFO,ProcID:19468,controller.py,predict,56, predict starting
+2023-09-14 14:35:04,912,INFO,ProcID:19468,controller.py,predict,96, predict end
+2023-09-14 14:35:04,912,INFO,ProcID:19468,controller.py,predict,56, predict starting
+2023-09-14 14:35:04,920,INFO,ProcID:19468,controller.py,predict,96, predict end
+2023-09-14 14:35:04,920,INFO,ProcID:19468,controller.py,predict,56, predict starting
+2023-09-14 14:35:04,930,INFO,ProcID:19468,controller.py,predict,96, predict end
+2023-09-14 14:35:04,931,INFO,ProcID:19468,controller.py,predict,56, predict starting
+2023-09-14 14:35:04,940,INFO,ProcID:19468,controller.py,predict,96, predict end
+2023-09-14 14:35:04,941,INFO,ProcID:19468,controller.py,predict,56, predict starting
+2023-09-14 14:35:04,950,INFO,ProcID:19468,controller.py,predict,96, predict end
+2023-09-14 14:35:04,951,INFO,ProcID:19468,controller.py,predict,56, predict starting
+2023-09-14 14:35:04,959,INFO,ProcID:19468,controller.py,predict,96, predict end
+2023-09-14 14:35:04,960,INFO,ProcID:19468,controller.py,predict,56, predict starting
+2023-09-14 14:35:04,969,INFO,ProcID:19468,controller.py,predict,96, predict end
+2023-09-14 14:35:04,970,INFO,ProcID:19468,controller.py,predict,56, predict starting
+2023-09-14 14:35:04,979,INFO,ProcID:19468,controller.py,predict,96, predict end
+2023-09-14 14:35:04,979,INFO,ProcID:19468,controller.py,predict,56, predict starting
+2023-09-14 14:35:04,988,INFO,ProcID:19468,controller.py,predict,96, predict end
+2023-09-14 14:35:04,989,INFO,ProcID:19468,controller.py,predict,56, predict starting
+2023-09-14 14:35:04,997,INFO,ProcID:19468,controller.py,predict,96, predict end
+2023-09-14 14:35:04,997,INFO,ProcID:19468,controller.py,predict,56, predict starting
+2023-09-14 14:35:05,007,INFO,ProcID:19468,controller.py,predict,96, predict end
+2023-09-14 14:35:05,007,INFO,ProcID:19468,controller.py,predict,56, predict starting
+2023-09-14 14:35:05,016,INFO,ProcID:19468,controller.py,predict,96, predict end
+2023-09-14 14:35:05,018,INFO,ProcID:19468,controller.py,evaluate_model,169, evaluate model function end
+2023-09-14 14:35:05,018,INFO,ProcID:19468,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 14:41:27,155,INFO,ProcID:9672,run.py,<module>,85, Start Logging.
+2023-09-14 14:41:40,476,INFO,ProcID:25184,run.py,<module>,85, Start Logging.
+2023-09-14 14:41:42,421,INFO,ProcID:8188,run.py,<module>,85, Start Logging.
+2023-09-14 14:41:44,187,INFO,ProcID:8188,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 14:41:44,187,INFO,ProcID:8188,controller.py,get_models_information,30, get all models function starting
+2023-09-14 14:41:44,344,INFO,ProcID:8188,controller.py,get_models_information,43, get all models function end
+2023-09-14 14:41:44,386,INFO,ProcID:8188,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 14:41:47,430,INFO,ProcID:8188,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 14:41:47,430,INFO,ProcID:8188,controller.py,evaluate_model,106, evaluate model function starting
+2023-09-14 14:41:47,439,INFO,ProcID:8188,controller.py,evaluate_model,169, evaluate model function end
+2023-09-14 14:41:47,439,INFO,ProcID:8188,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 14:42:13,546,INFO,ProcID:8188,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 14:42:13,546,INFO,ProcID:8188,controller.py,evaluate_model,106, evaluate model function starting
+2023-09-14 14:42:13,549,INFO,ProcID:8188,controller.py,predict,56, predict starting
+2023-09-14 14:42:13,559,INFO,ProcID:8188,controller.py,predict,96, predict end
+2023-09-14 14:42:13,560,INFO,ProcID:8188,controller.py,predict,56, predict starting
+2023-09-14 14:42:13,568,INFO,ProcID:8188,controller.py,predict,96, predict end
+2023-09-14 14:42:13,569,INFO,ProcID:8188,controller.py,predict,56, predict starting
+2023-09-14 14:42:13,578,INFO,ProcID:8188,controller.py,predict,96, predict end
+2023-09-14 14:42:13,579,INFO,ProcID:8188,controller.py,predict,56, predict starting
+2023-09-14 14:42:13,587,INFO,ProcID:8188,controller.py,predict,96, predict end
+2023-09-14 14:42:13,587,INFO,ProcID:8188,controller.py,predict,56, predict starting
+2023-09-14 14:42:13,595,INFO,ProcID:8188,controller.py,predict,96, predict end
+2023-09-14 14:42:13,596,INFO,ProcID:8188,controller.py,predict,56, predict starting
+2023-09-14 14:42:13,604,INFO,ProcID:8188,controller.py,predict,96, predict end
+2023-09-14 14:42:13,605,INFO,ProcID:8188,controller.py,predict,56, predict starting
+2023-09-14 14:42:13,614,INFO,ProcID:8188,controller.py,predict,96, predict end
+2023-09-14 14:42:13,615,INFO,ProcID:8188,controller.py,predict,56, predict starting
+2023-09-14 14:42:13,623,INFO,ProcID:8188,controller.py,predict,96, predict end
+2023-09-14 14:42:13,624,INFO,ProcID:8188,controller.py,predict,56, predict starting
+2023-09-14 14:42:13,631,INFO,ProcID:8188,controller.py,predict,96, predict end
+2023-09-14 14:42:13,632,INFO,ProcID:8188,controller.py,predict,56, predict starting
+2023-09-14 14:42:13,641,INFO,ProcID:8188,controller.py,predict,96, predict end
+2023-09-14 14:42:13,641,INFO,ProcID:8188,controller.py,predict,56, predict starting
+2023-09-14 14:42:13,650,INFO,ProcID:8188,controller.py,predict,96, predict end
+2023-09-14 14:42:13,650,INFO,ProcID:8188,controller.py,predict,56, predict starting
+2023-09-14 14:42:13,659,INFO,ProcID:8188,controller.py,predict,96, predict end
+2023-09-14 14:42:13,660,INFO,ProcID:8188,controller.py,predict,56, predict starting
+2023-09-14 14:42:13,668,INFO,ProcID:8188,controller.py,predict,96, predict end
+2023-09-14 14:42:13,669,INFO,ProcID:8188,controller.py,predict,56, predict starting
+2023-09-14 14:42:13,677,INFO,ProcID:8188,controller.py,predict,96, predict end
+2023-09-14 14:42:13,677,INFO,ProcID:8188,controller.py,predict,56, predict starting
+2023-09-14 14:42:13,685,INFO,ProcID:8188,controller.py,predict,96, predict end
+2023-09-14 14:42:13,686,INFO,ProcID:8188,controller.py,predict,56, predict starting
+2023-09-14 14:42:13,694,INFO,ProcID:8188,controller.py,predict,96, predict end
+2023-09-14 14:42:13,694,INFO,ProcID:8188,controller.py,predict,56, predict starting
+2023-09-14 14:42:13,703,INFO,ProcID:8188,controller.py,predict,96, predict end
+2023-09-14 14:42:13,704,INFO,ProcID:8188,controller.py,predict,56, predict starting
+2023-09-14 14:42:13,712,INFO,ProcID:8188,controller.py,predict,96, predict end
+2023-09-14 14:42:13,714,INFO,ProcID:8188,controller.py,evaluate_model,169, evaluate model function end
+2023-09-14 14:42:13,714,INFO,ProcID:8188,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 14:47:44,366,INFO,ProcID:10576,run.py,<module>,85, Start Logging.
+2023-09-14 14:54:42,544,INFO,ProcID:10576,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 14:54:42,544,INFO,ProcID:10576,controller.py,get_models_information,30, get all models function starting
+2023-09-14 14:54:42,604,INFO,ProcID:10576,controller.py,get_models_information,43, get all models function end
+2023-09-14 14:54:42,643,INFO,ProcID:10576,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 14:54:44,238,INFO,ProcID:10576,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 14:54:44,238,INFO,ProcID:10576,controller.py,evaluate_model,106, evaluate model function starting
+2023-09-14 14:54:44,246,INFO,ProcID:10576,controller.py,evaluate_model,168, evaluate model function end
+2023-09-14 14:54:44,246,INFO,ProcID:10576,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 14:55:06,739,INFO,ProcID:10848,run.py,<module>,85, Start Logging.
+2023-09-14 14:55:08,605,INFO,ProcID:13292,run.py,<module>,85, Start Logging.
+2023-09-14 14:55:11,150,INFO,ProcID:13292,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 14:55:11,150,INFO,ProcID:13292,controller.py,get_models_information,30, get all models function starting
+2023-09-14 14:55:11,215,INFO,ProcID:13292,controller.py,get_models_information,43, get all models function end
+2023-09-14 14:55:11,256,INFO,ProcID:13292,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 14:55:13,106,INFO,ProcID:13292,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 14:55:13,107,INFO,ProcID:13292,controller.py,evaluate_model,106, evaluate model function starting
+2023-09-14 14:55:13,114,INFO,ProcID:13292,controller.py,evaluate_model,168, evaluate model function end
+2023-09-14 14:55:13,115,INFO,ProcID:13292,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 14:55:18,935,INFO,ProcID:13292,models_info.py,get_models_info,26, Start function get all models information
+2023-09-14 14:55:18,935,INFO,ProcID:13292,controller.py,get_models_information,30, get all models function starting
+2023-09-14 14:55:18,938,INFO,ProcID:13292,controller.py,get_models_information,43, get all models function end
+2023-09-14 14:55:18,949,INFO,ProcID:13292,models_info.py,get_models_info,34, Finish function get all models information
+2023-09-14 14:55:28,469,INFO,ProcID:13292,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 14:55:28,469,INFO,ProcID:13292,controller.py,evaluate_model,106, evaluate model function starting
+2023-09-14 14:55:28,473,INFO,ProcID:13292,controller.py,predict,56, predict starting
+2023-09-14 14:55:28,484,INFO,ProcID:13292,controller.py,predict,96, predict end
+2023-09-14 14:55:28,485,INFO,ProcID:13292,controller.py,predict,56, predict starting
+2023-09-14 14:55:28,493,INFO,ProcID:13292,controller.py,predict,96, predict end
+2023-09-14 14:55:28,494,INFO,ProcID:13292,controller.py,predict,56, predict starting
+2023-09-14 14:55:28,504,INFO,ProcID:13292,controller.py,predict,96, predict end
+2023-09-14 14:55:28,505,INFO,ProcID:13292,controller.py,predict,56, predict starting
+2023-09-14 14:55:28,514,INFO,ProcID:13292,controller.py,predict,96, predict end
+2023-09-14 14:55:28,515,INFO,ProcID:13292,controller.py,predict,56, predict starting
+2023-09-14 14:55:28,524,INFO,ProcID:13292,controller.py,predict,96, predict end
+2023-09-14 14:55:28,525,INFO,ProcID:13292,controller.py,predict,56, predict starting
+2023-09-14 14:55:28,534,INFO,ProcID:13292,controller.py,predict,96, predict end
+2023-09-14 14:55:28,535,INFO,ProcID:13292,controller.py,predict,56, predict starting
+2023-09-14 14:55:28,545,INFO,ProcID:13292,controller.py,predict,96, predict end
+2023-09-14 14:55:28,545,INFO,ProcID:13292,controller.py,predict,56, predict starting
+2023-09-14 14:55:28,554,INFO,ProcID:13292,controller.py,predict,96, predict end
+2023-09-14 14:55:28,555,INFO,ProcID:13292,controller.py,predict,56, predict starting
+2023-09-14 14:55:28,564,INFO,ProcID:13292,controller.py,predict,96, predict end
+2023-09-14 14:55:28,564,INFO,ProcID:13292,controller.py,predict,56, predict starting
+2023-09-14 14:55:28,574,INFO,ProcID:13292,controller.py,predict,96, predict end
+2023-09-14 14:55:28,575,INFO,ProcID:13292,controller.py,predict,56, predict starting
+2023-09-14 14:55:28,584,INFO,ProcID:13292,controller.py,predict,96, predict end
+2023-09-14 14:55:28,585,INFO,ProcID:13292,controller.py,predict,56, predict starting
+2023-09-14 14:55:28,594,INFO,ProcID:13292,controller.py,predict,96, predict end
+2023-09-14 14:55:28,595,INFO,ProcID:13292,controller.py,predict,56, predict starting
+2023-09-14 14:55:28,603,INFO,ProcID:13292,controller.py,predict,96, predict end
+2023-09-14 14:55:28,604,INFO,ProcID:13292,controller.py,predict,56, predict starting
+2023-09-14 14:55:28,614,INFO,ProcID:13292,controller.py,predict,96, predict end
+2023-09-14 14:55:28,614,INFO,ProcID:13292,controller.py,predict,56, predict starting
+2023-09-14 14:55:28,623,INFO,ProcID:13292,controller.py,predict,96, predict end
+2023-09-14 14:55:28,623,INFO,ProcID:13292,controller.py,predict,56, predict starting
+2023-09-14 14:55:28,632,INFO,ProcID:13292,controller.py,predict,96, predict end
+2023-09-14 14:55:28,632,INFO,ProcID:13292,controller.py,predict,56, predict starting
+2023-09-14 14:55:28,642,INFO,ProcID:13292,controller.py,predict,96, predict end
+2023-09-14 14:55:28,643,INFO,ProcID:13292,controller.py,predict,56, predict starting
+2023-09-14 14:55:28,652,INFO,ProcID:13292,controller.py,predict,96, predict end
+2023-09-14 14:55:28,652,INFO,ProcID:13292,controller.py,evaluate_model,168, evaluate model function end
+2023-09-14 14:55:28,652,INFO,ProcID:13292,models_info.py,evaluate_models,71, end evaluate.
+2023-09-14 14:55:54,395,INFO,ProcID:13292,models_info.py,evaluate_models,46, Start evaluate.
+2023-09-14 14:55:54,395,INFO,ProcID:13292,controller.py,evaluate_model,106, evaluate model function starting
+2023-09-14 14:55:54,398,INFO,ProcID:13292,controller.py,predict,56, predict starting
+2023-09-14 14:55:54,406,INFO,ProcID:13292,controller.py,predict,96, predict end
+2023-09-14 14:55:54,407,INFO,ProcID:13292,controller.py,predict,56, predict starting
+2023-09-14 14:55:54,416,INFO,ProcID:13292,controller.py,predict,96, predict end
+2023-09-14 14:55:54,416,INFO,ProcID:13292,controller.py,predict,56, predict starting
+2023-09-14 14:55:54,426,INFO,ProcID:13292,controller.py,predict,96, predict end
+2023-09-14 14:55:54,427,INFO,ProcID:13292,controller.py,predict,56, predict starting
+2023-09-14 14:55:54,435,INFO,ProcID:13292,controller.py,predict,96, predict end
+2023-09-14 14:55:54,436,INFO,ProcID:13292,controller.py,predict,56, predict starting
+2023-09-14 14:55:54,446,INFO,ProcID:13292,controller.py,predict,96, predict end
+2023-09-14 14:55:54,447,INFO,ProcID:13292,controller.py,predict,56, predict starting
+2023-09-14 14:55:54,455,INFO,ProcID:13292,controller.py,predict,96, predict end
+2023-09-14 14:55:54,456,INFO,ProcID:13292,controller.py,predict,56, predict starting
+2023-09-14 14:55:54,464,INFO,ProcID:13292,controller.py,predict,96, predict end
+2023-09-14 14:55:54,464,INFO,ProcID:13292,controller.py,predict,56, predict starting
+2023-09-14 14:55:54,473,INFO,ProcID:13292,controller.py,predict,96, predict end
+2023-09-14 14:55:54,473,INFO,ProcID:13292,controller.py,predict,56, predict starting
+2023-09-14 14:55:54,481,INFO,ProcID:13292,controller.py,predict,96, predict end
+2023-09-14 14:55:54,482,INFO,ProcID:13292,controller.py,predict,56, predict starting
+2023-09-14 14:55:54,490,INFO,ProcID:13292,controller.py,predict,96, predict end
+2023-09-14 14:55:54,491,INFO,ProcID:13292,controller.py,predict,56, predict starting
+2023-09-14 14:55:54,499,INFO,ProcID:13292,controller.py,predict,96, predict end
+2023-09-14 14:55:54,499,INFO,ProcID:13292,controller.py,predict,56, predict starting
+2023-09-14 14:55:54,508,INFO,ProcID:13292,controller.py,predict,96, predict end
+2023-09-14 14:55:54,509,INFO,ProcID:13292,controller.py,predict,56, predict starting
+2023-09-14 14:55:54,517,INFO,ProcID:13292,controller.py,predict,96, predict end
+2023-09-14 14:55:54,517,INFO,ProcID:13292,controller.py,predict,56, predict starting
+2023-09-14 14:55:54,525,INFO,ProcID:13292,controller.py,predict,96, predict end
+2023-09-14 14:55:54,525,INFO,ProcID:13292,controller.py,predict,56, predict starting
+2023-09-14 14:55:54,534,INFO,ProcID:13292,controller.py,predict,96, predict end
+2023-09-14 14:55:54,535,INFO,ProcID:13292,controller.py,predict,56, predict starting
+2023-09-14 14:55:54,543,INFO,ProcID:13292,controller.py,predict,96, predict end
+2023-09-14 14:55:54,544,INFO,ProcID:13292,controller.py,predict,56, predict starting
+2023-09-14 14:55:54,552,INFO,ProcID:13292,controller.py,predict,96, predict end
+2023-09-14 14:55:54,553,INFO,ProcID:13292,controller.py,predict,56, predict starting
+2023-09-14 14:55:54,561,INFO,ProcID:13292,controller.py,predict,96, predict end
+2023-09-14 14:55:54,562,INFO,ProcID:13292,controller.py,evaluate_model,168, evaluate model function end
+2023-09-14 14:55:54,562,INFO,ProcID:13292,models_info.py,evaluate_models,71, end evaluate.
